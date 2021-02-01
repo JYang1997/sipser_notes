@@ -1,76 +1,88 @@
-sipser_notes
+<!DOCTYPE html>
+<html>
 
-# Chapter 1 Regular Language
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sipser_notes</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
-> **Definition**  
-> A **finite automaton** is a 5-tuple (Q,Σ,δ,q0F)(Q, \\Sigma , \\delta, q_0 F)(Q,Σ,δ,q0​F), where
-> 
-> 1.  Q is a finite set called the **states**.
-> 2.  Σ\\SigmaΣ is a finite set called the **alphabets**.
-> 3.  δ:Q×Σ→Q\\delta : Q \\times \\Sigma \\rightarrow Qδ:Q×Σ→Q is the transition function.
-> 4.  q0∈Qq_0 \\in Qq0​∈Q is the start state
-> 5.  F⊆QF \\subseteq QF⊆Q is the set of accept states.
-> 
-> A **nondeterministic finite automaton** allow ϵ\\epsilonϵ transition, that is,  
-> 3\. δ:Q×Σϵ→Q\\delta : Q \\times \\Sigma_\\epsilon \\rightarrow Qδ:Q×Σϵ​→Q is the transition function.
-
-> **Theorem**  
-> Every nondeterministic finite automaton has an equivalent deterministic finite automaton.
-
-Finite automaton is the recognizers for equivalent **Regular Languages**. Another words, Regular Languages are exactly the languages accepted by (non)deterministic finite automata;
-
-> **Definition**  
-> Formal definition for **Regular Expression** if R is
-> 
-> 1.  aaa for some aaa in the alphabet Σ\\SigmaΣ,
-> 2.  ϵ\\epsilonϵ
-> 3.  ∅\\empty∅
-> 4.  (R1∪R2)(R\_1 \\cup R\_2 )(R1​∪R2​), where R1R_1R1​ and R2R_2R2​ are regular expressions,
-> 5.  (R 1 ◦ R 2 ), where R1R_1R1​ and R2R_2R2​ are regular expressions, or
-> 6.  (R1∗)(R_1^* )(R1∗​), where R1R_1R1​ is a regular expression.  
->     In items 1 and 2, the regular expressions a and ε represent the  
->     languages {a} and {ε}, respectively. In item 3, the regular expres-  
->     sion ∅ represents the empty language. In items 4, 5, and 6, the  
->     expressions represent the languages obtained by taking the union  
->     or concatenation of the languages R 1 and R 2 , or the star of the  
->     language R 1 , respectively.
-
-### Differentiating Non-Regular Languages
-
-To differentiating regularities, we can use **Pumping lemma**
-
-> **Pumping Lemma**
-
-# Chapter 2 Context Free Language
-
-### TODO:
-
-```
-1. show inherently ambiguous
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="chapter-1-regular-language">Chapter 1 Regular Language</h1>
+<blockquote>
+<p><strong>Definition</strong><br>
+A <strong>finite automaton</strong> is a 5-tuple <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>Q</mi><mo separator="true">,</mo><mi mathvariant="normal">Σ</mi><mo separator="true">,</mo><mi>δ</mi><mo separator="true">,</mo><msub><mi>q</mi><mn>0</mn></msub><mi>F</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(Q, \Sigma , \delta, q_0 F)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">Q</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">Σ</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathdefault" style="margin-right: 0.03785em;">δ</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.03588em;">q</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.03588em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right: 0.13889em;">F</span><span class="mclose">)</span></span></span></span></span>, where</p>
+<ol>
+<li>Q is a finite set called the <strong>states</strong>.</li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Σ</mi></mrow><annotation encoding="application/x-tex">\Sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord">Σ</span></span></span></span></span> is a finite set called the <strong>alphabets</strong>.</li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>δ</mi><mo>:</mo><mi>Q</mi><mo>×</mo><mi mathvariant="normal">Σ</mi><mo>→</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">\delta : Q \times \Sigma \rightarrow Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.03785em;">δ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord">Σ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">Q</span></span></span></span></span> is the transition function.</li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>q</mi><mn>0</mn></msub><mo>∈</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">q_0 \in Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.73354em; vertical-align: -0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.03588em;">q</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.03588em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">Q</span></span></span></span></span> is the start state</li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi><mo>⊆</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">F \subseteq Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8193em; vertical-align: -0.13597em;"></span><span class="mord mathdefault" style="margin-right: 0.13889em;">F</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">⊆</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">Q</span></span></span></span></span> is the set of  accept states.</li>
+</ol>
+<p>A <strong>nondeterministic finite automaton</strong> allow <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></span> transition, that is,<br>
+3. <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>δ</mi><mo>:</mo><mi>Q</mi><mo>×</mo><msub><mi mathvariant="normal">Σ</mi><mi>ϵ</mi></msub><mo>→</mo><mi>Q</mi></mrow><annotation encoding="application/x-tex">\delta : Q \times \Sigma_\epsilon \rightarrow Q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.03785em;">δ</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord">Σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.151392em;"><span class="" style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">ϵ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.87777em; vertical-align: -0.19444em;"></span><span class="mord mathdefault">Q</span></span></span></span></span> is the transition function.</p>
+</blockquote>
+<blockquote>
+<p><strong>Theorem</strong><br>
+Every nondeterministic finite automaton has an equivalent deterministic finite automaton.</p>
+</blockquote>
+<p>Finite automaton is the recognizers for equivalent <strong>Regular Languages</strong>. Another words, Regular Languages are exactly the languages accepted by (non)deterministic finite automata;</p>
+<blockquote>
+<p><strong>Definition</strong><br>
+Formal definition for <strong>Regular Expression</strong> if R is</p>
+<ol>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">a</span></span></span></span></span> for some <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">a</span></span></span></span></span> in the alphabet <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Σ</mi></mrow><annotation encoding="application/x-tex">\Sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord">Σ</span></span></span></span></span>,</li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></span></li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∅</mi></mrow><annotation encoding="application/x-tex">\empty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.80556em; vertical-align: -0.05556em;"></span><span class="mord">∅</span></span></span></span></span></li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><msub><mi>R</mi><mn>1</mn></msub><mo>∪</mo><msub><mi>R</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(R_1 \cup R_2 )</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.00773em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">∪</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.00773em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span>, where <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">R_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.00773em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span> and <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">R_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.00773em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span> are regular expressions,</li>
+<li>(R 1 ◦ R 2 ), where <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">R_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.00773em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span> and <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">R_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.00773em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span> are regular expressions, or</li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><msubsup><mi>R</mi><mn>1</mn><mo>∗</mo></msubsup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(R_1^* )</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.688696em;"><span class="" style="top: -2.45189em; margin-left: -0.00773em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.248108em;"><span class=""></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span>, where <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>R</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">R_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right: 0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.301108em;"><span class="" style="top: -2.55em; margin-left: -0.00773em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span> is a regular expression.<br>
+In items 1 and 2, the regular expressions a and ε represent the<br>
+languages {a} and {ε}, respectively. In item 3, the regular expres-<br>
+sion ∅ represents the empty language. In items 4, 5, and 6, the<br>
+expressions represent the languages obtained by taking the union<br>
+or concatenation of the languages R 1 and R 2 , or the star of the<br>
+language R 1 , respectively.</li>
+</ol>
+</blockquote>
+<h3 id="differentiating-non-regular-languages">Differentiating Non-Regular Languages</h3>
+<p>To differentiating  regularities, we can use <strong>Pumping lemma</strong></p>
+<blockquote>
+<p><strong>Pumping Lemma</strong></p>
+</blockquote>
+<h1 id="chapter-2-context-free-language">Chapter 2 Context Free Language</h1>
+<h3 id="todo">TODO:</h3>
+<pre><code>1. show inherently ambiguous
 2. 
+</code></pre>
+<blockquote>
+<p><strong>Definition</strong><br>
+CFG is 4-tuple <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>V</mi><mo separator="true">,</mo><mi mathvariant="normal">Σ</mi><mo separator="true">,</mo><mi>R</mi><mo separator="true">,</mo><mi>S</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(V, \Sigma, R, S)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right: 0.22222em;">V</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord">Σ</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathdefault" style="margin-right: 0.00773em;">R</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathdefault" style="margin-right: 0.05764em;">S</span><span class="mclose">)</span></span></span></span></span></p>
+<ol>
+<li>V is a finite set called variables</li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Σ</mi></mrow><annotation encoding="application/x-tex">\Sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord">Σ</span></span></span></span></span> is a finite set called terminals (disjoint from V).</li>
+<li>R is a finite set of rules</li>
+<li><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>S</mi><mo>∈</mo><mi>V</mi></mrow><annotation encoding="application/x-tex">S \in V</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.72243em; vertical-align: -0.0391em;"></span><span class="mord mathdefault" style="margin-right: 0.05764em;">S</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.22222em;">V</span></span></span></span></span> is a start varible.</li>
+</ol>
+</blockquote>
+<blockquote>
+<p><strong>Definition</strong><br>
+A <strong>context free laguage</strong> is any language that is generated by a context-free grammar. (CFL)</p>
+</blockquote>
+<blockquote>
+<p><strong>Definition</strong><br>
+A string <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ω</mi></mrow><annotation encoding="application/x-tex">\omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.03588em;">ω</span></span></span></span></span> is derived <strong>ambiguously</strong> in context-free grammar G if it has two or more different <strong>leftmost derivations</strong>. Grammar G is ambiguous if it generates some string ambiguously.</p>
+<p>*<strong>leftmost derivation</strong>:  if at every step the leftmost remaining variable is the one replaced.</p>
+</blockquote>
+<blockquote>
+<p><strong>Theorem</strong><br>
+Any CFL is generated by a CFG in Chomsky normal form</p>
+</blockquote>
+<blockquote>
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
+</div>
+</body>
 
-```
-
-> **Definition**  
-> CFG is 4-tuple (V,Σ,R,S)(V, \\Sigma, R, S)(V,Σ,R,S)
-> 
-> 1.  V is a finite set called variables
-> 2.  Σ\\SigmaΣ is a finite set called terminals (disjoint from V).
-> 3.  R is a finite set of rules
-> 4.  S∈VS \\in VS∈V is a start varible.
-
-> **Definition**  
-> A **context free laguage** is any language that is generated by a context-free grammar. (CFL)
-
-> **Definition**  
-> A string ω\\omegaω is derived **ambiguously** in context-free grammar G if it has two or more different **leftmost derivations**. Grammar G is ambiguous if it generates some string ambiguously.
-> 
-> ***leftmost derivation**: if at every step the leftmost remaining variable is the one replaced.
-
-> **Theorem**  
-> Any CFL is generated by a CFG in Chomsky normal form
-
-> Written with [StackEdit](https://stackedit.io/).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDM2MDcxN119
--->
+</html>
