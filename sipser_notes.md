@@ -1,3 +1,20 @@
+# Random notes about language
+### 1.
+	There are three different terms,
+	1. language
+	2. language generator (grammar of the language)
+	3. language recognizer (machine (automaton))
+1. **language** are represent in the form of expressions (regular expression, context-free expression)
+2. **grammar** specified rules for generating the language.
+3. **automaton** is a machine that recognize the language.
+
+### 2.
+Pumping lemma is useful for proving a language is not CFL or RL.
+
+Basic Idea:
+1. If the language size is **finite**, then it is obvious. (RL)
+2. If the language size is not **finite**, then by pigeonhole, there must be part of the rule reused.
+3. This reuse of rule lead to loop in the path, then remove such loop, or repeat multiple times should not affect acceptance of the string.
 
 
 # Chapter 1 Regular Language
@@ -71,7 +88,7 @@ To prove a language is regular, one can start from the definition, or its equiva
 	 
 ### TODO:
 	1. show inherently ambiguous
-	2. 
+	2. if language is generatable, can you always built equivalent machine recognize it?.
 >**Definition**
 > CFG is 4-tuple $(V, \Sigma, R, S)$
 > 1. V is a finite set called variables
@@ -103,8 +120,30 @@ To prove a language is regular, one can start from the definition, or its equiva
 >  > 6. $F \subseteq Q$ is the set accept states.
 
 
+> **Theorem 2.20**
+> A language is context free if and only if some pushdown automaton recognizes it.
+
+The proof for above theorem is redious, basically it's a proof by construction, where it shows that start from one of it you can construct the other one.
+
+
+### Differentiating Non-Context-Free Languages
+
+> **Pumping Lemma for Context-Free Languages**
+> If $A$ is context-free language, then there is a number $p$ (the pumping length) where, if $s$ is any in $A$ of length at least $p$, then $s$ may be divided into five pieces  $s = uvxyz$ satisfying the conditions,
+> >1. for each $i \geq 0$, $uv^ixy^iz \in A$
+>> 2. $|uy| > 0$
+>>3. $|vxy| \leq p$.
+
+The **pumping length** has upper bound $b^{|V|+1}$, where $|V|$ is the number of variables in the grammar, and b is the maximum number of symbols in the right hand side of a rule. 
+This pumping length implies that the strings greater than such length must have parse tree at least
+$|V|+1$ high, because $b^{|V|+1} \geq b^{|V|}+1$.
+Which immediately follow that there must be loop in the derivation.
+
+>**Example**
+
+
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTM0Njg0Nl19
+eyJoaXN0b3J5IjpbNTY0Mjg1MjE1XX0=
 -->
