@@ -145,6 +145,9 @@ Which immediately follow that there must be loop in the derivation.
 
 # Chapter 3 The Church-Turing Thesis
 
+### TODO:
+		1.go through TM examples in ch 3.1
+		
 >**Definition**
 > A **Turing machine** is a 7-tuple, $(Q, Σ, Γ, δ, q_0 , q_{accept} , q_{reject} )$, where
 $Q, Σ, Γ$ are all finite sets and
@@ -174,6 +177,6 @@ Turing-Recognizable only guarantee that if string is in such language than turin
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMT
-E1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
+eyJoaXN0b3J5IjpbLTE2NjkwMzA1MzcsLTIwOTczNDI5MDYsLT
+I5NDc5MjMyOCwtMTE1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
 -->
