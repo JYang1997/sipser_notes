@@ -181,15 +181,18 @@ Here are some example variants that are equivalence to the Turing machine.
 2. non-deterministic Turing machine (Thm 3.16)
 3. stay put turing machine.
 
-In general, one can demonstrate the equivalence by showing that the variant part can be simulates using plain Turing Machine.
-zz
+In general, one can demonstrate the equivalence by showing that the variant part can be simulates using plain Turing Machine. (see section 3.2, for details)
+
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzM0NzcxNCwxNDY4ODA0OTMwLDE1Mj
-Y4MTEwODgsMTE3ODg5NjUyLC0xNjY5MDMwNTM3LC0yMDk3MzQy
-OTA2LC0yOTQ3OTIzMjgsLTExNTM4NzU4NjgsNTY0Mjg1MjE1XX
-0=
+eyJoaXN0b3J5IjpbMTY2NjI3MDM3OSwxMTMzMzQ3NzE0LDE0Nj
+g4MDQ5MzAsMTUyNjgxMTA4OCwxMTc4ODk2NTIsLTE2NjkwMzA1
+MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1Mzg3NTg2OC
+w1NjQyODUyMTVdfQ==
 -->
