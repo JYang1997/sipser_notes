@@ -185,7 +185,9 @@ In general, one can demonstrate the equivalence by showing that the variant part
 
 ## The definition of  Algorithm
 	> TODO read scan turing 1936, then add more detail here
-The Church-Turing thesis provides the definition of algorithm. This fomalized t
+The Church-Turing thesis provides the definition of algorithm. This fomalized the intuitive notion of algorithms.
+
+When talking about algorithm or more specifically **Turing machine
 # Chapter 4 Decidability
 
 
@@ -197,7 +199,7 @@ The Church-Turing thesis provides the definition of algorithm. This fomalized t
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODc4MDIwNiwxNjY2MjcwMzc5LDExMz
+eyJoaXN0b3J5IjpbMTY0NTk5MzAwNiwxNjY2MjcwMzc5LDExMz
 MzNDc3MTQsMTQ2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1
 MiwtMTY2OTAzMDUzNywtMjA5NzM0MjkwNiwtMjk0NzkyMzI4LC
 0xMTUzODc1ODY4LDU2NDI4NTIxNV19
