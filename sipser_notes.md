@@ -89,7 +89,7 @@ To prove a language is regular, one can start from the definition, or its equiva
 ### TODO:
 	1. show inherently ambiguous
 	2. if language is generatable, can you always built equivalent machine recognize it?.
-	3. complete e
+	3. complete example when review for exam
 >**Definition**
 > CFG is 4-tuple $(V, \Sigma, R, S)$
 > 1. V is a finite set called variables
@@ -159,5 +159,5 @@ q reject ∈ Q is the reject state, where q reject ̸ = q accept
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2Nzg5ODA2LDU2NDI4NTIxNV19
+eyJoaXN0b3J5IjpbMTAyMTM0Mjc5Myw1NjQyODUyMTVdfQ==
 -->
