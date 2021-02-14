@@ -167,11 +167,11 @@ Turing Machines computation process are represented by **configuration**. Config
 > Call a language **Turing-decidable** or simply **decidable** if some Turing machine decides it.
 
 The difference between deciadable and recognizable is that, for Turing decidable, there are a turing machine that recognize such language and it always accept or reject, never **halts**. 
-Turing-Recognizable only guarantee that if string is in such language than
+Turing-Recognizable only guarantee that if string is in such language than turing machine accepts it, said nothing about what happen if machine does not accept it. (Both halt and reject is possible).
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzM0ODQwOCwtMjk0NzkyMzI4LC0xMT
-UzODc1ODY4LDU2NDI4NTIxNV19
+eyJoaXN0b3J5IjpbLTIxMjI5OTUwOTQsLTI5NDc5MjMyOCwtMT
+E1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
 -->
