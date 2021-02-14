@@ -172,11 +172,14 @@ Turing Machines computation process are represented by **configuration**. Config
 The difference between deciadable and recognizable is that, for Turing decidable, there are a turing machine that recognize such language and it always accept or reject, never **halts**. 
 Turing-Recognizable only guarantee that if string is in such language than turing machine accepts it, said nothing about what happen if machine does not accept it. (Both halt and reject is possible).
 
+#### Robustness of Turing Machines
+The Turing machine have very high level of robustness.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjkwMzA1MzcsLTIwOTczNDI5MDYsLT
-I5NDc5MjMyOCwtMTE1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
+eyJoaXN0b3J5IjpbLTE0MTkyNDgzNTUsLTE2NjkwMzA1MzcsLT
+IwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1Mzg3NTg2OCw1NjQy
+ODUyMTVdfQ==
 -->
