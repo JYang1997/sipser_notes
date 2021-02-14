@@ -159,17 +159,18 @@ $Q, Σ, Γ$ are all finite sets and
 Turing Machines computation process are represented by **configuration**. Configuration describes TM's current state, the current tape contents, and the current head location. The transition function $δ$ describes how TM's changes from one configuration to another. We say configuration 1 **yields** configuration 2, if there is transition function that go from 1 to 2. 
 > typically **configuration** are represented as $u q v$, where $uv$ is the input string. The $q$ represent the current state of TM. and the head of TM is pointed to the first symbol of string $v$. 
 
-
+#### Decidable v.s. Recognizable
 > **Definition**
 >  Call a language **Turing-recogniziable** if some Turing machine recognizes it.
 
 > **Definition**
 > Call a language **Turing-decidable** or simply **decidable** if some Turing machine decides it.
 
+The difference between deciadable and recognizable is that
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTQ4NDU2NCwtMjk0NzkyMzI4LC0xMT
+eyJoaXN0b3J5IjpbMTc5MTgxMjgzOCwtMjk0NzkyMzI4LC0xMT
 UzODc1ODY4LDU2NDI4NTIxNV19
 -->
