@@ -187,7 +187,9 @@ In general, one can demonstrate the equivalence by showing that the variant part
 	> TODO read scan turing 1936, then add more detail here
 The Church-Turing thesis provides the definition of algorithm. This fomalized the intuitive notion of algorithms.
 
-When talking about algorithm or more specifically **Turing machine
+When talking about algorithm or more specifically **Turing Machine Algorithm**. There are three different level of description.
+		1. formal description: use the definition of turing machine, write out every details, includes transitions functions and states etc.
+		2. ss
 # Chapter 4 Decidability
 
 
@@ -199,7 +201,7 @@ When talking about algorithm or more specifically **Turing machine
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTk5MzAwNiwxNjY2MjcwMzc5LDExMz
+eyJoaXN0b3J5IjpbLTQwNzM4MzgwMCwxNjY2MjcwMzc5LDExMz
 MzNDc3MTQsMTQ2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1
 MiwtMTY2OTAzMDUzNywtMjA5NzM0MjkwNiwtMjk0NzkyMzI4LC
 0xMTUzODc1ODY4LDU2NDI4NTIxNV19
