@@ -148,16 +148,16 @@ Which immediately follow that there must be loop in the derivation.
 >**Definition**
 > A **Turing machine** is a 7-tuple, $(Q, Σ, Γ, δ, q_0 , q_accept , q_reject )$, where
 $Q, Σ, Γ$ are all finite sets and
-> 1. Q is the set of states,
-> 2. Σ is the input alphabet not containing the blank symbol ␣ ,
-> 3. Γ is the tape alphabet, where ␣ ∈ Γ and Σ ⊆ Γ,
-> 4. δ : Q × Γ−→Q × Γ × {L, R} is the transition function,
-q 0 ∈ Q is the start state,
+> 1. $Q$ is the set of states,
+> 2. $Σ$ is the input alphabet not containing the blank symbol ␣ ,
+> 3. $Γ$ is the tape alphabet, where $␣ ∈ Γ$ and $Σ ⊆ Γ$,
+> 4. $δ : Q × Γ−→Q × Γ × {L, R}$ is the transition function,
+> 5. q_0 ∈ Q is the start state,
 q accept ∈ Q is the accept state, and
 q reject ∈ Q is the reject state, where q reject ̸ = q accept
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTM0Mjc5Myw1NjQyODUyMTVdfQ==
+eyJoaXN0b3J5IjpbMTg1NjQ2MjgzMSw1NjQyODUyMTVdfQ==
 -->
