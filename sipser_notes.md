@@ -156,8 +156,10 @@ $Q, Σ, Γ$ are all finite sets and
 > 6. $q_{accept} ∈ Q$ is the accept state, and
 > 7. $q_{reject} ∈ Q$ is the reject state, where $q_{reject} \neq q_{accept}$
 
+Turing Machines computation process are represented by 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM4NzU4NjgsNTY0Mjg1MjE1XX0=
+eyJoaXN0b3J5IjpbMTQ4ODg1MTA3MywtMTE1Mzg3NTg2OCw1Nj
+QyODUyMTVdfQ==
 -->
