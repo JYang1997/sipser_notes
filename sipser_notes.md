@@ -175,11 +175,13 @@ Turing-Recognizable only guarantee that if string is in such language than turin
 #### Robustness of Turing Machines
 The Turing machine have very high level of robustness. This basically means that the original turing machine model have equivalence expressing power (recognize) compare to its reasonable variants (those variants may seems more powerful, but we can show that all the add-on "features" can be simulated with original turing machine.)
 
+Here are some example variants that are equivalence to the Turing machine.
+
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwMjg5NTc1LC0xNjY5MDMwNTM3LC0yMD
+eyJoaXN0b3J5IjpbMTE3ODg5NjUyLC0xNjY5MDMwNTM3LC0yMD
 k3MzQyOTA2LC0yOTQ3OTIzMjgsLTExNTM4NzU4NjgsNTY0Mjg1
 MjE1XX0=
 -->
