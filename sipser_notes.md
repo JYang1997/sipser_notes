@@ -184,6 +184,10 @@ Here are some example variants that are equivalence to the Turing machine.
 In general, one can demonstrate the equivalence by showing that the variant part can be simulates using plain Turing Machine. (see section 3.2, for details)
 
 
+# Chapter 4 Decidability
+
+
+
 
 
 
@@ -191,8 +195,8 @@ In general, one can demonstrate the equivalence by showing that the variant part
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjI3MDM3OSwxMTMzMzQ3NzE0LDE0Nj
-g4MDQ5MzAsMTUyNjgxMTA4OCwxMTc4ODk2NTIsLTE2NjkwMzA1
-MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1Mzg3NTg2OC
-w1NjQyODUyMTVdfQ==
+eyJoaXN0b3J5IjpbNTg5NTcxODY2LDE2NjYyNzAzNzksMTEzMz
+M0NzcxNCwxNDY4ODA0OTMwLDE1MjY4MTEwODgsMTE3ODg5NjUy
+LC0xNjY5MDMwNTM3LC0yMDk3MzQyOTA2LC0yOTQ3OTIzMjgsLT
+ExNTM4NzU4NjgsNTY0Mjg1MjE1XX0=
 -->
