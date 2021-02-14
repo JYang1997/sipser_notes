@@ -156,12 +156,12 @@ $Q, Σ, Γ$ are all finite sets and
 > 6. $q_{accept} ∈ Q$ is the accept state, and
 > 7. $q_{reject} ∈ Q$ is the reject state, where $q_{reject} \neq q_{accept}$
 
-Turing Machines computation process are represented by **configuration**. Configuration describes TM's current state, the current tape contents, and the current head location. The transition function $δ$ describes how TM's changes from one configuration to another. We say
+Turing Machines computation process are represented by **configuration**. Configuration describes TM's current state, the current tape contents, and the current head location. The transition function $δ$ describes how TM's changes from one configuration to another. We say configuration 1 $yields$ configuration 2, if there is transition function that go from 1 to 2. 
 > typically **configuration** are represented as $u q v$, where $uv$ is the input string. The $q$ represent the current state of TM. and the head of TM is pointed to the first symbol of string $v$. 
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE4NTA1MjUsLTExNTM4NzU4NjgsNT
+eyJoaXN0b3J5IjpbLTE2ODQ1MTY5MjcsLTExNTM4NzU4NjgsNT
 Y0Mjg1MjE1XX0=
 -->
