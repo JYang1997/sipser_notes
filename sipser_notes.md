@@ -159,9 +159,11 @@ $Q, Σ, Γ$ are all finite sets and
 Turing Machines computation process are represented by **configuration**. Configuration describes TM's current state, the current tape contents, and the current head location. The transition function $δ$ describes how TM's changes from one configuration to another. We say configuration 1 **yields** configuration 2, if there is transition function that go from 1 to 2. 
 > typically **configuration** are represented as $u q v$, where $uv$ is the input string. The $q$ represent the current state of TM. and the head of TM is pointed to the first symbol of string $v$. 
 
+> **Definition**
+>  Call a language **Turing-recogniziable** if some Turing machine recognizes it.
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNjcxNjI5LC0xMTUzODc1ODY4LDU2ND
-I4NTIxNV19
+eyJoaXN0b3J5IjpbLTI5NDc5MjMyOCwtMTE1Mzg3NTg2OCw1Nj
+QyODUyMTVdfQ==
 -->
