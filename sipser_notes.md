@@ -182,13 +182,14 @@ Here are some example variants that are equivalence to the Turing machine.
 3. stay put turing machine.
 
 In general, one can demonstrate the equivalence by showing that the variant part can be simulates using plain Turing Machine.
-
+zz
 
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODgwNDkzMCwxNTI2ODExMDg4LDExNz
-g4OTY1MiwtMTY2OTAzMDUzNywtMjA5NzM0MjkwNiwtMjk0Nzky
-MzI4LC0xMTUzODc1ODY4LDU2NDI4NTIxNV19
+eyJoaXN0b3J5IjpbMTEzMzM0NzcxNCwxNDY4ODA0OTMwLDE1Mj
+Y4MTEwODgsMTE3ODg5NjUyLC0xNjY5MDMwNTM3LC0yMDk3MzQy
+OTA2LC0yOTQ3OTIzMjgsLTExNTM4NzU4NjgsNTY0Mjg1MjE1XX
+0=
 -->
