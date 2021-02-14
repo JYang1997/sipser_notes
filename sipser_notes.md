@@ -179,14 +179,14 @@ Here are some example variants that are equivalence to the Turing machine.
 
 1. multitape turing machine (Thm 3.13)
 2. non-deterministic Turing machine (Thm 3.16)
-3. 
+3. stay put turing machine
 4. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjgxMTA4OCwxMTc4ODk2NTIsLTE2Nj
-kwMzA1MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1Mzg3
-NTg2OCw1NjQyODUyMTVdfQ==
+eyJoaXN0b3J5IjpbLTM5NjcyNzIsMTUyNjgxMTA4OCwxMTc4OD
+k2NTIsLTE2NjkwMzA1MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMy
+OCwtMTE1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
 -->
