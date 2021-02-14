@@ -188,8 +188,10 @@ In general, one can demonstrate the equivalence by showing that the variant part
 The Church-Turing thesis provides the definition of algorithm. This fomalized the intuitive notion of algorithms.
 
 When talking about algorithm or more specifically **Turing Machine Algorithm**. There are three different level of description.
-		1. formal description: use the definition of turing machine, write out every details, includes transitions functions and states etc.
-		2. ss
+	
+ 1. formal description: use the definition of turing machine, write out every details, includes transitions functions and states etc.
+ 2.  Implementation description: use more simple english descprition for how Turing machine's head move and the way that its stores data, etc.
+ 3. 
 # Chapter 4 Decidability
 
 
@@ -201,7 +203,7 @@ When talking about algorithm or more specifically **Turing Machine Algorithm**. 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzM4MzgwMCwxNjY2MjcwMzc5LDExMz
+eyJoaXN0b3J5IjpbLTc3NjA5MTQ3MSwxNjY2MjcwMzc5LDExMz
 MzNDc3MTQsMTQ2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1
 MiwtMTY2OTAzMDUzNywtMjA5NzM0MjkwNiwtMjk0NzkyMzI4LC
 0xMTUzODc1ODY4LDU2NDI4NTIxNV19
