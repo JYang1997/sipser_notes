@@ -161,9 +161,10 @@ Turing Machines computation process are represented by **configuration**. Config
 
 > **Definition**
 >  Call a language **Turing-recogniziable** if some Turing machine recognizes it.
+>  
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDc5MjMyOCwtMTE1Mzg3NTg2OCw1Nj
-QyODUyMTVdfQ==
+eyJoaXN0b3J5IjpbLTY1Njc1NTU4MCwtMjk0NzkyMzI4LC0xMT
+UzODc1ODY4LDU2NDI4NTIxNV19
 -->
