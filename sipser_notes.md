@@ -177,11 +177,16 @@ The Turing machine have very high level of robustness. This basically means that
 
 Here are some example variants that are equivalence to the Turing machine.
 
+1. multitape turing machine (Thm 3.13)
+2. non-deterministic Turing machine (Thm 3.16)
+3. 
+4. 
+
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODg5NjUyLC0xNjY5MDMwNTM3LC0yMD
-k3MzQyOTA2LC0yOTQ3OTIzMjgsLTExNTM4NzU4NjgsNTY0Mjg1
-MjE1XX0=
+eyJoaXN0b3J5IjpbMTUyNjgxMTA4OCwxMTc4ODk2NTIsLTE2Nj
+kwMzA1MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1Mzg3
+NTg2OCw1NjQyODUyMTVdfQ==
 -->
