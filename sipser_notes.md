@@ -173,13 +173,13 @@ The difference between deciadable and recognizable is that, for Turing decidable
 Turing-Recognizable only guarantee that if string is in such language than turing machine accepts it, said nothing about what happen if machine does not accept it. (Both halt and reject is possible).
 
 #### Robustness of Turing Machines
-The Turing machine have very high level of robustness. This basically means that the original turing machine model have equivalence expressing power (recognize) compare 
+The Turing machine have very high level of robustness. This basically means that the original turing machine model have equivalence expressing power (recognize) compare to its reasonable variants (those variants may seems more powerful, but we can show that all the add-on "features" can be simulated with original turing machine.)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTE1NTc3MiwtMTY2OTAzMDUzNywtMj
-A5NzM0MjkwNiwtMjk0NzkyMzI4LC0xMTUzODc1ODY4LDU2NDI4
-NTIxNV19
+eyJoaXN0b3J5IjpbMjIwMjg5NTc1LC0xNjY5MDMwNTM3LC0yMD
+k3MzQyOTA2LC0yOTQ3OTIzMjgsLTExNTM4NzU4NjgsNTY0Mjg1
+MjE1XX0=
 -->
