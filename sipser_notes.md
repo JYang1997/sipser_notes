@@ -89,6 +89,7 @@ To prove a language is regular, one can start from the definition, or its equiva
 ### TODO:
 	1. show inherently ambiguous
 	2. if language is generatable, can you always built equivalent machine recognize it?.
+	3. complete e
 >**Definition**
 > CFG is 4-tuple $(V, \Sigma, R, S)$
 > 1. V is a finite set called variables
@@ -142,8 +143,21 @@ Which immediately follow that there must be loop in the derivation.
 >**Example**
 
 
+# Chapter 3 The Church-Turing Thesis
+
+>**Definition**
+> A **Turing machine** is a 7-tuple, $(Q, Σ, Γ, δ, q_0 , q_accept , q_reject )$, where
+$Q, Σ, Γ$ are all finite sets and
+> 1. Q is the set of states,
+> 2. Σ is the input alphabet not containing the blank symbol ␣ ,
+> 3. Γ is the tape alphabet, where ␣ ∈ Γ and Σ ⊆ Γ,
+> 4. δ : Q × Γ−→Q × Γ × {L, R} is the transition function,
+q 0 ∈ Q is the start state,
+q accept ∈ Q is the accept state, and
+q reject ∈ Q is the reject state, where q reject ̸ = q accept
+
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0Mjg1MjE1XX0=
+eyJoaXN0b3J5IjpbNTA2Nzg5ODA2LDU2NDI4NTIxNV19
 -->
