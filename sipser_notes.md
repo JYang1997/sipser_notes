@@ -206,7 +206,7 @@ is same as asking whether such problem is **Turing-Decidable**.*
 > **Theorem 4.3**  $A_{REX}$ is decidable language.
 
 $A_{DFA}$ is a language, defined as:
-$A_{DFA} = \{\}$
+$A_{DFA}$ = \{$<B,w>$ | $B$ is a DFA that accepts input string $w$\}
 
 > **Theorem 4.4** $E_{DFA}$ is decidable language.
 
@@ -217,7 +217,7 @@ $A_{DFA} = \{\}$
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTk5NzM2MywtMTUyMjQ4NjA5MCwtMT
+eyJoaXN0b3J5IjpbLTg3NjU5Njc5OCwtMTUyMjQ4NjA5MCwtMT
 MxMTY3NTE0LC02MDA0NjE2ODksMTY2NjI3MDM3OSwxMTMzMzQ3
 NzE0LDE0Njg4MDQ5MzAsMTUyNjgxMTA4OCwxMTc4ODk2NTIsLT
 E2NjkwMzA1MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1
