@@ -200,7 +200,7 @@ When talking about algorithm or more specifically **Turing Machine Algorithm**. 
 Asking whether certain **Turing Machine algorithm** exist for a problem,
 is same as asking whether such problem is **Turing-Decidable**.*
 
-#### Decidable problems concerning Regular Languages
+### Decidable problems concerning Regular Languages
 > **Theorem 4.1** $A_{DFA}$ is decidable language.
 > **Theorem 4.2** $A_{NFA}$ is decidable language
 > **Theorem 4.3**  $A_{REX}$ is decidable language.
@@ -234,17 +234,19 @@ If DFA *A* and *B* is not equivalent, then there must be strings that only accep
 
 then if both DFA is equivalent, we know their symmetric difference must be empty. Therefore proving A and B are equivalent is same as deciding L(C) is empty. Note, DFA is closed under these operations, then we can construct C based on A and B, then run emptiness decider for C.  QED.
 
-#### Decidable problems concerning Context-Free Languages
+### Decidable problems concerning Context-Free Languages
 
+> 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDMwMzg0NywtMzYxMzA2NzMyLC04Nz
-Y3MjM2NzIsLTI0NTYwMDkyOSw0NDk2MTU0MDMsMzU4Njk5MzM4
-LC0xNTIyNDg2MDkwLC0xMzExNjc1MTQsLTYwMDQ2MTY4OSwxNj
-Y2MjcwMzc5LDExMzMzNDc3MTQsMTQ2ODgwNDkzMCwxNTI2ODEx
-MDg4LDExNzg4OTY1MiwtMTY2OTAzMDUzNywtMjA5NzM0MjkwNi
-wtMjk0NzkyMzI4LC0xMTUzODc1ODY4LDU2NDI4NTIxNV19
+eyJoaXN0b3J5IjpbLTIwNjU0NzUzMTksLTM2MTMwNjczMiwtOD
+c2NzIzNjcyLC0yNDU2MDA5MjksNDQ5NjE1NDAzLDM1ODY5OTMz
+OCwtMTUyMjQ4NjA5MCwtMTMxMTY3NTE0LC02MDA0NjE2ODksMT
+Y2NjI3MDM3OSwxMTMzMzQ3NzE0LDE0Njg4MDQ5MzAsMTUyNjgx
+MTA4OCwxMTc4ODk2NTIsLTE2NjkwMzA1MzcsLTIwOTczNDI5MD
+YsLTI5NDc5MjMyOCwtMTE1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
+
 -->
