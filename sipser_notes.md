@@ -219,7 +219,10 @@ To determine whether such language is decidable, we can show that there exist a 
 
 $E_{DFA}$ = \{$<A>$ | *A* is a DFA and $L(A)=\empty$\}
 
-Theorem 4.4 can be prove using iterative marking algorithm. Starting from initial state, mark it. Then mark all state with marked state as incoming state. Finally accept is no accept state
+Theorem 4.4 can be prove using iterative marking algorithm. Starting from initial state, mark it. Then mark all state with marked state as incoming state. Finally accept is no accept state is marked. Otherwise, reject.
+
+> **Theorem 4.5** $EQ_{DFA}$ is a decidable language.
+>
 #### Decidable problems concerning Context-Free Languages
 
 
@@ -227,7 +230,7 @@ Theorem 4.4 can be prove using iterative marking algorithm. Starting from initia
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTU5NzUyOSw0NDk2MTU0MDMsMzU4Nj
+eyJoaXN0b3J5IjpbLTI0NTYwMDkyOSw0NDk2MTU0MDMsMzU4Nj
 k5MzM4LC0xNTIyNDg2MDkwLC0xMzExNjc1MTQsLTYwMDQ2MTY4
 OSwxNjY2MjcwMzc5LDExMzMzNDc3MTQsMTQ2ODgwNDkzMCwxNT
 I2ODExMDg4LDExNzg4OTY1MiwtMTY2OTAzMDUzNywtMjA5NzM0
