@@ -200,7 +200,8 @@ When talking about algorithm or more specifically **Turing Machine Algorithm**. 
 Asking whether certain **Turing Machine algorithm** exist for a problem,
 is same as asking whether such problem is **Turing-Decidable**.*
 
-
+#### Decidable problems concerning Regular Languages
+> **Theorem 4.1** $A{}$
 
 
 
@@ -209,7 +210,7 @@ is same as asking whether such problem is **Turing-Decidable**.*
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjIyMDk0MCwtNjAwNDYxNjg5LDE2Nj
+eyJoaXN0b3J5IjpbMTg5NjY2NTYyNCwtNjAwNDYxNjg5LDE2Nj
 YyNzAzNzksMTEzMzM0NzcxNCwxNDY4ODA0OTMwLDE1MjY4MTEw
 ODgsMTE3ODg5NjUyLC0xNjY5MDMwNTM3LC0yMDk3MzQyOTA2LC
 0yOTQ3OTIzMjgsLTExNTM4NzU4NjgsNTY0Mjg1MjE1XX0=
