@@ -217,6 +217,7 @@ To determine whether such language is decidable, we can show that there exist a 
 
 > **Theorem 4.4** $E_{DFA}$ is decidable language.
 
+$E_{DFA}$ = \{$<A>$ | *A* is a DFA and $L(A)=\$\}
 #### Decidable problems concerning Context-Free Languages
 
 
@@ -224,9 +225,9 @@ To determine whether such language is decidable, we can show that there exist a 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4Njk5MzM4LC0xNTIyNDg2MDkwLC0xMz
-ExNjc1MTQsLTYwMDQ2MTY4OSwxNjY2MjcwMzc5LDExMzMzNDc3
-MTQsMTQ2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1MiwtMT
-Y2OTAzMDUzNywtMjA5NzM0MjkwNiwtMjk0NzkyMzI4LC0xMTUz
-ODc1ODY4LDU2NDI4NTIxNV19
+eyJoaXN0b3J5IjpbMTUwMTA2NzE3NCwzNTg2OTkzMzgsLTE1Mj
+I0ODYwOTAsLTEzMTE2NzUxNCwtNjAwNDYxNjg5LDE2NjYyNzAz
+NzksMTEzMzM0NzcxNCwxNDY4ODA0OTMwLDE1MjY4MTEwODgsMT
+E3ODg5NjUyLC0xNjY5MDMwNTM3LC0yMDk3MzQyOTA2LC0yOTQ3
+OTIzMjgsLTExNTM4NzU4NjgsNTY0Mjg1MjE1XX0=
 -->
