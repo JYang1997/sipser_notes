@@ -215,6 +215,7 @@ To determine whether such language is decidable, we can show that there exist a 
 
 **Theorem 4.1-3** are essentially equivalent.  One can convert NFA or  REX to DFA then use DFA as part of the input, then 2 and 3 are obviously true.
 
+##### Emptiness problem:
 > **Theorem 4.4** $E_{DFA}$ is decidable language.
 
 $E_{DFA}$ = \{$<A>$ | *A* is a DFA and $L(A)=\empty$\}
@@ -230,10 +231,10 @@ Theorem 4.4 can be prove using iterative marking algorithm. Starting from initia
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTYwMDkyOSw0NDk2MTU0MDMsMzU4Nj
-k5MzM4LC0xNTIyNDg2MDkwLC0xMzExNjc1MTQsLTYwMDQ2MTY4
-OSwxNjY2MjcwMzc5LDExMzMzNDc3MTQsMTQ2ODgwNDkzMCwxNT
-I2ODExMDg4LDExNzg4OTY1MiwtMTY2OTAzMDUzNywtMjA5NzM0
-MjkwNiwtMjk0NzkyMzI4LC0xMTUzODc1ODY4LDU2NDI4NTIxNV
-19
+eyJoaXN0b3J5IjpbMTY4MDQ1MzM4NSwtMjQ1NjAwOTI5LDQ0OT
+YxNTQwMywzNTg2OTkzMzgsLTE1MjI0ODYwOTAsLTEzMTE2NzUx
+NCwtNjAwNDYxNjg5LDE2NjYyNzAzNzksMTEzMzM0NzcxNCwxND
+Y4ODA0OTMwLDE1MjY4MTEwODgsMTE3ODg5NjUyLC0xNjY5MDMw
+NTM3LC0yMDk3MzQyOTA2LC0yOTQ3OTIzMjgsLTExNTM4NzU4Nj
+gsNTY0Mjg1MjE1XX0=
 -->
