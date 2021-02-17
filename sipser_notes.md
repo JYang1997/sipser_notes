@@ -208,14 +208,14 @@ is same as asking whether such problem is **Turing-Decidable**.*
 
 > **Theorem 4.4** $E_{DFA}$ is decidable language.
 
-#### Decidable problems concerning COntext-Free Languages
+#### Decidable problems concerning Context-Free Languages
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk5MTgzNzgsLTEzMTE2NzUxNCwtNj
+eyJoaXN0b3J5IjpbLTE1MjI0ODYwOTAsLTEzMTE2NzUxNCwtNj
 AwNDYxNjg5LDE2NjYyNzAzNzksMTEzMzM0NzcxNCwxNDY4ODA0
 OTMwLDE1MjY4MTEwODgsMTE3ODg5NjUyLC0xNjY5MDMwNTM3LC
 0yMDk3MzQyOTA2LC0yOTQ3OTIzMjgsLTExNTM4NzU4NjgsNTY0
