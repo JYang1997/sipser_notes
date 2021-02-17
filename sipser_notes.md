@@ -227,7 +227,7 @@ Theorem 4.4 can be prove using iterative marking algorithm. Starting from initia
 $EQ_{DFA} =$ \{$<A,B>$ | *A* and *B* are DFAs and $L(A) = L(B)$\}
 
 Theorem 4.5 state that determine whether two DFAs are equivalent is decidable.
-
+The proof idea:
 
 #### Decidable problems concerning Context-Free Languages
 
@@ -236,10 +236,10 @@ Theorem 4.5 state that determine whether two DFAs are equivalent is decidable.
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjcyMzY3MiwtMjQ1NjAwOTI5LDQ0OT
-YxNTQwMywzNTg2OTkzMzgsLTE1MjI0ODYwOTAsLTEzMTE2NzUx
-NCwtNjAwNDYxNjg5LDE2NjYyNzAzNzksMTEzMzM0NzcxNCwxND
-Y4ODA0OTMwLDE1MjY4MTEwODgsMTE3ODg5NjUyLC0xNjY5MDMw
-NTM3LC0yMDk3MzQyOTA2LC0yOTQ3OTIzMjgsLTExNTM4NzU4Nj
-gsNTY0Mjg1MjE1XX0=
+eyJoaXN0b3J5IjpbLTM2MTMwNjczMiwtODc2NzIzNjcyLC0yND
+U2MDA5MjksNDQ5NjE1NDAzLDM1ODY5OTMzOCwtMTUyMjQ4NjA5
+MCwtMTMxMTY3NTE0LC02MDA0NjE2ODksMTY2NjI3MDM3OSwxMT
+MzMzQ3NzE0LDE0Njg4MDQ5MzAsMTUyNjgxMTA4OCwxMTc4ODk2
+NTIsLTE2NjkwMzA1MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOC
+wtMTE1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
 -->
