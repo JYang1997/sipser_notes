@@ -207,7 +207,9 @@ is same as asking whether such problem is **Turing-Decidable**.*
 
 $A_{DFA}$ is a language, defined as:
 $A_{DFA}$ = \{$<B,w>$ | $B$ is a DFA that accepts input string $w$\}
-The **acceptance problem** for DFAs of testing whether a particular DFA accepts a given string $w$ can be expressed as language $A_{DFA}$.
+The **acceptance problem** for DFAs of testing whether a particular DFA accepts a given string $w$ can be expressed as language $A_{DFA}$. 
+
+Then, asking whether such acceptance problem is decidable by Turing-Machine is same asking
 > **Theorem 4.4** $E_{DFA}$ is decidable language.
 
 #### Decidable problems concerning Context-Free Languages
@@ -217,9 +219,9 @@ The **acceptance problem** for DFAs of testing whether a particular DFA accepts 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzQyMTUyNywtMTUyMjQ4NjA5MCwtMT
-MxMTY3NTE0LC02MDA0NjE2ODksMTY2NjI3MDM3OSwxMTMzMzQ3
-NzE0LDE0Njg4MDQ5MzAsMTUyNjgxMTA4OCwxMTc4ODk2NTIsLT
-E2NjkwMzA1MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1
-Mzg3NTg2OCw1NjQyODUyMTVdfQ==
+eyJoaXN0b3J5IjpbMjQ2MjU2NTc1LC0xNTIyNDg2MDkwLC0xMz
+ExNjc1MTQsLTYwMDQ2MTY4OSwxNjY2MjcwMzc5LDExMzMzNDc3
+MTQsMTQ2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1MiwtMT
+Y2OTAzMDUzNywtMjA5NzM0MjkwNiwtMjk0NzkyMzI4LC0xMTUz
+ODc1ODY4LDU2NDI4NTIxNV19
 -->
