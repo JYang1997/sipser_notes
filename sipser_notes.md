@@ -196,7 +196,9 @@ When talking about algorithm or more specifically **Turing Machine Algorithm**. 
 
 # Chapter 4 Decidability
 
-*The previous section *
+*The previous section (algorithm) implies that:
+Asking whether certain Turing Machine algorithm exist for a problem,
+is *
 
 
 
@@ -205,7 +207,7 @@ When talking about algorithm or more specifically **Turing Machine Algorithm**. 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDA1ODE5MCwtNjAwNDYxNjg5LDE2Nj
+eyJoaXN0b3J5IjpbLTU2MjcwODk0NSwtNjAwNDYxNjg5LDE2Nj
 YyNzAzNzksMTEzMzM0NzcxNCwxNDY4ODA0OTMwLDE1MjY4MTEw
 ODgsMTE3ODg5NjUyLC0xNjY5MDMwNTM3LC0yMDk3MzQyOTA2LC
 0yOTQ3OTIzMjgsLTExNTM4NzU4NjgsNTY0Mjg1MjE1XX0=
