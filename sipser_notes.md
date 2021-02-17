@@ -226,6 +226,7 @@ Theorem 4.4 can be prove using iterative marking algorithm. Starting from initia
 
 $EQ_{DFA} =$ \{$<A,B>$ | *A* and *B* are DFAs and $L(A) = L(B)$\}
 
+Theorem 4.5 state that determine whether two DFA's
 
 
 #### Decidable problems concerning Context-Free Languages
@@ -235,10 +236,10 @@ $EQ_{DFA} =$ \{$<A,B>$ | *A* and *B* are DFAs and $L(A) = L(B)$\}
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM1NzcwMDQsLTI0NTYwMDkyOSw0ND
-k2MTU0MDMsMzU4Njk5MzM4LC0xNTIyNDg2MDkwLC0xMzExNjc1
-MTQsLTYwMDQ2MTY4OSwxNjY2MjcwMzc5LDExMzMzNDc3MTQsMT
-Q2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1MiwtMTY2OTAz
-MDUzNywtMjA5NzM0MjkwNiwtMjk0NzkyMzI4LC0xMTUzODc1OD
-Y4LDU2NDI4NTIxNV19
+eyJoaXN0b3J5IjpbMTk1NDQ4Njc2LC0yNDU2MDA5MjksNDQ5Nj
+E1NDAzLDM1ODY5OTMzOCwtMTUyMjQ4NjA5MCwtMTMxMTY3NTE0
+LC02MDA0NjE2ODksMTY2NjI3MDM3OSwxMTMzMzQ3NzE0LDE0Nj
+g4MDQ5MzAsMTUyNjgxMTA4OCwxMTc4ODk2NTIsLTE2NjkwMzA1
+MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1Mzg3NTg2OC
+w1NjQyODUyMTVdfQ==
 -->
