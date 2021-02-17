@@ -211,7 +211,7 @@ The **acceptance problem** for DFAs of testing whether a particular DFA accepts 
 
 Then, asking whether such acceptance problem is decidable by Turing-Machine is same asking whether language $A_{DFA}$ is decidable.
 
-To determine whether such language is decidable, we can show that there exist a TM *M* that decides $A_{DFA}$. 
+To determine whether such language is decidable, we can show that there exist a TM *M* that decides $A_{DFA}$. The basic proof idea for Theorem 4.1 is to simulate DFA *B* on turing machine.
 **Theorem 4.1-3** are essentially equivalent.  
 > **Theorem 4.4** $E_{DFA}$ is decidable language.
 
@@ -222,9 +222,9 @@ To determine whether such language is decidable, we can show that there exist a 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTM2MjgxOCwtMTUyMjQ4NjA5MCwtMT
-MxMTY3NTE0LC02MDA0NjE2ODksMTY2NjI3MDM3OSwxMTMzMzQ3
-NzE0LDE0Njg4MDQ5MzAsMTUyNjgxMTA4OCwxMTc4ODk2NTIsLT
-E2NjkwMzA1MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1
-Mzg3NTg2OCw1NjQyODUyMTVdfQ==
+eyJoaXN0b3J5IjpbNjYzMTM4NTkzLC0xNTIyNDg2MDkwLC0xMz
+ExNjc1MTQsLTYwMDQ2MTY4OSwxNjY2MjcwMzc5LDExMzMzNDc3
+MTQsMTQ2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1MiwtMT
+Y2OTAzMDUzNywtMjA5NzM0MjkwNiwtMjk0NzkyMzI4LC0xMTUz
+ODc1ODY4LDU2NDI4NTIxNV19
 -->
