@@ -229,7 +229,7 @@ $EQ_{DFA} =$ \{$<A,B>$ | *A* and *B* are DFAs and $L(A) = L(B)$\}
 Theorem 4.5 state that determine whether two DFAs are equivalent is decidable.
 The proof idea:
 If DFA *A* and *B* is not equivalent, then there must be strings that only accept by either A or B.  (known as **symmetric difference** of *A* and *B*). 
-<center><center\> $sssssssssssss$
+ $L(C) = (L(A) \\cup$
 ss
 
 #### Decidable problems concerning Context-Free Languages
@@ -239,7 +239,7 @@ ss
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc2MTk5MjMsLTM2MTMwNjczMiwtOD
+eyJoaXN0b3J5IjpbLTE4MzQ4ODgxNTksLTM2MTMwNjczMiwtOD
 c2NzIzNjcyLC0yNDU2MDA5MjksNDQ5NjE1NDAzLDM1ODY5OTMz
 OCwtMTUyMjQ4NjA5MCwtMTMxMTY3NTE0LC02MDA0NjE2ODksMT
 Y2NjI3MDM3OSwxMTMzMzQ3NzE0LDE0Njg4MDQ5MzAsMTUyNjgx
