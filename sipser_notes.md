@@ -237,16 +237,18 @@ then if both DFA is equivalent, we know their symmetric difference must be empty
 ### Decidable problems concerning Context-Free Languages
 
 > **Theorem 4.7** $A_{CFG}$ is a decidable language.
->**Th
+
+>**Theorem 4.8** $E_{CFG}$ is a decidable language.
+
+>**Theorem 4.9** Every context-free language is decidable.
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM5NjA4MTAsLTM2MTMwNjczMiwtOD
-c2NzIzNjcyLC0yNDU2MDA5MjksNDQ5NjE1NDAzLDM1ODY5OTMz
-OCwtMTUyMjQ4NjA5MCwtMTMxMTY3NTE0LC02MDA0NjE2ODksMT
-Y2NjI3MDM3OSwxMTMzMzQ3NzE0LDE0Njg4MDQ5MzAsMTUyNjgx
-MTA4OCwxMTc4ODk2NTIsLTE2NjkwMzA1MzcsLTIwOTczNDI5MD
-YsLTI5NDc5MjMyOCwtMTE1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
-
+eyJoaXN0b3J5IjpbNTY2OTAwNzg5LC0zNjEzMDY3MzIsLTg3Nj
+cyMzY3MiwtMjQ1NjAwOTI5LDQ0OTYxNTQwMywzNTg2OTkzMzgs
+LTE1MjI0ODYwOTAsLTEzMTE2NzUxNCwtNjAwNDYxNjg5LDE2Nj
+YyNzAzNzksMTEzMzM0NzcxNCwxNDY4ODA0OTMwLDE1MjY4MTEw
+ODgsMTE3ODg5NjUyLC0xNjY5MDMwNTM3LC0yMDk3MzQyOTA2LC
+0yOTQ3OTIzMjgsLTExNTM4NzU4NjgsNTY0Mjg1MjE1XX0=
 -->
