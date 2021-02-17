@@ -224,7 +224,9 @@ Theorem 4.4 can be prove using iterative marking algorithm. Starting from initia
 
 > **Theorem 4.5** $EQ_{DFA}$ is a decidable language.
 
-$EQ_{DFA} = $ \{$<A,B>$ | *A* and *B* are DFAs and $L(A) = L($\}
+$EQ_{DFA} =$ \{$<A,B>$ | *A* and *B* are DFAs and $L(A) = L(B)$\}
+
+
 
 #### Decidable problems concerning Context-Free Languages
 
@@ -233,7 +235,7 @@ $EQ_{DFA} = $ \{$<A,B>$ | *A* and *B* are DFAs and $L(A) = L($\}
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQwNzcyMzksLTI0NTYwMDkyOSw0ND
+eyJoaXN0b3J5IjpbLTEyNjM1NzcwMDQsLTI0NTYwMDkyOSw0ND
 k2MTU0MDMsMzU4Njk5MzM4LC0xNTIyNDg2MDkwLC0xMzExNjc1
 MTQsLTYwMDQ2MTY4OSwxNjY2MjcwMzc5LDExMzMzNDc3MTQsMT
 Q2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1MiwtMTY2OTAz
