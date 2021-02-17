@@ -223,7 +223,9 @@ $E_{DFA}$ = \{$<A>$ | *A* is a DFA and $L(A)=\empty$\}
 Theorem 4.4 can be prove using iterative marking algorithm. Starting from initial state, mark it. Then mark all state with marked state as incoming state. Finally accept is no accept state is marked. Otherwise, reject.
 
 > **Theorem 4.5** $EQ_{DFA}$ is a decidable language.
->
+
+$EQ_{DFA} = $ \{$<A,B>$ | *A* and *B* are DFAs and $L(A) = L($\}
+
 #### Decidable problems concerning Context-Free Languages
 
 
@@ -231,10 +233,10 @@ Theorem 4.4 can be prove using iterative marking algorithm. Starting from initia
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDQ1MzM4NSwtMjQ1NjAwOTI5LDQ0OT
-YxNTQwMywzNTg2OTkzMzgsLTE1MjI0ODYwOTAsLTEzMTE2NzUx
-NCwtNjAwNDYxNjg5LDE2NjYyNzAzNzksMTEzMzM0NzcxNCwxND
-Y4ODA0OTMwLDE1MjY4MTEwODgsMTE3ODg5NjUyLC0xNjY5MDMw
-NTM3LC0yMDk3MzQyOTA2LC0yOTQ3OTIzMjgsLTExNTM4NzU4Nj
-gsNTY0Mjg1MjE1XX0=
+eyJoaXN0b3J5IjpbLTExMTQwNzcyMzksLTI0NTYwMDkyOSw0ND
+k2MTU0MDMsMzU4Njk5MzM4LC0xNTIyNDg2MDkwLC0xMzExNjc1
+MTQsLTYwMDQ2MTY4OSwxNjY2MjcwMzc5LDExMzMzNDc3MTQsMT
+Q2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1MiwtMTY2OTAz
+MDUzNywtMjA5NzM0MjkwNiwtMjk0NzkyMzI4LC0xMTUzODc1OD
+Y4LDU2NDI4NTIxNV19
 -->
