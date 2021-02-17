@@ -228,7 +228,7 @@ $EQ_{DFA} =$ \{$<A,B>$ | *A* and *B* are DFAs and $L(A) = L(B)$\}
 
 Theorem 4.5 state that determine whether two DFAs are equivalent is decidable.
 The proof idea:
-
+If DFA *A* and *B* is not equivalent, then there must be strings that only accept by either A or B.
 #### Decidable problems concerning Context-Free Languages
 
 
@@ -236,10 +236,11 @@ The proof idea:
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTMwNjczMiwtODc2NzIzNjcyLC0yND
-U2MDA5MjksNDQ5NjE1NDAzLDM1ODY5OTMzOCwtMTUyMjQ4NjA5
-MCwtMTMxMTY3NTE0LC02MDA0NjE2ODksMTY2NjI3MDM3OSwxMT
-MzMzQ3NzE0LDE0Njg4MDQ5MzAsMTUyNjgxMTA4OCwxMTc4ODk2
-NTIsLTE2NjkwMzA1MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOC
-wtMTE1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
+eyJoaXN0b3J5IjpbLTE0ODE1MDg2ODcsLTM2MTMwNjczMiwtOD
+c2NzIzNjcyLC0yNDU2MDA5MjksNDQ5NjE1NDAzLDM1ODY5OTMz
+OCwtMTUyMjQ4NjA5MCwtMTMxMTY3NTE0LC02MDA0NjE2ODksMT
+Y2NjI3MDM3OSwxMTMzMzQ3NzE0LDE0Njg4MDQ5MzAsMTUyNjgx
+MTA4OCwxMTc4ODk2NTIsLTE2NjkwMzA1MzcsLTIwOTczNDI5MD
+YsLTI5NDc5MjMyOCwtMTE1Mzg3NTg2OCw1NjQyODUyMTVdfQ==
+
 -->
