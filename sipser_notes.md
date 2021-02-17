@@ -212,7 +212,9 @@ The **acceptance problem** for DFAs of testing whether a particular DFA accepts 
 Then, asking whether such acceptance problem is decidable by Turing-Machine is same asking whether language $A_{DFA}$ is decidable.
 
 To determine whether such language is decidable, we can show that there exist a TM *M* that decides $A_{DFA}$. The basic proof idea for Theorem 4.1 is to simulate DFA *B* on turing machine.
-**Theorem 4.1-3** are essentially equivalent.  
+
+**Theorem 4.1-3** are essentially equivalent.  One can convert NFA or  REX to DFA then use DFA as part of the input, then 2 and 3 are obviously true.
+
 > **Theorem 4.4** $E_{DFA}$ is decidable language.
 
 #### Decidable problems concerning Context-Free Languages
@@ -222,7 +224,7 @@ To determine whether such language is decidable, we can show that there exist a 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMTM4NTkzLC0xNTIyNDg2MDkwLC0xMz
+eyJoaXN0b3J5IjpbMzU4Njk5MzM4LC0xNTIyNDg2MDkwLC0xMz
 ExNjc1MTQsLTYwMDQ2MTY4OSwxNjY2MjcwMzc5LDExMzMzNDc3
 MTQsMTQ2ODgwNDkzMCwxNTI2ODExMDg4LDExNzg4OTY1MiwtMT
 Y2OTAzMDUzNywtMjA5NzM0MjkwNiwtMjk0NzkyMzI4LC0xMTUz
