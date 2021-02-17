@@ -236,13 +236,13 @@ then if both DFA is equivalent, we know their symmetric difference must be empty
 
 ### Decidable problems concerning Context-Free Languages
 
-> 
-
+> **Theorem 4.7** $A_{CFG}$ is a decidable language.
+>**Th
 
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU0NzUzMTksLTM2MTMwNjczMiwtOD
+eyJoaXN0b3J5IjpbLTE4NjM5NjA4MTAsLTM2MTMwNjczMiwtOD
 c2NzIzNjcyLC0yNDU2MDA5MjksNDQ5NjE1NDAzLDM1ODY5OTMz
 OCwtMTUyMjQ4NjA5MCwtMTMxMTY3NTE0LC02MDA0NjE2ODksMT
 Y2NjI3MDM3OSwxMTMzMzQ3NzE0LDE0Njg4MDQ5MzAsMTUyNjgx
