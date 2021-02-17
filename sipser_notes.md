@@ -207,7 +207,7 @@ is same as asking whether such problem is **Turing-Decidable**.*
 
 $A_{DFA}$ is a language, defined as:
 $A_{DFA}$ = \{$<B,w>$ | $B$ is a DFA that accepts input string $w$\}
-
+The **acceptance problem** for DFAs of testing whether a particular DFA accepts a given string $w$ can be expressed as language $A_{DFA}$.
 > **Theorem 4.4** $E_{DFA}$ is decidable language.
 
 #### Decidable problems concerning Context-Free Languages
@@ -217,7 +217,7 @@ $A_{DFA}$ = \{$<B,w>$ | $B$ is a DFA that accepts input string $w$\}
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjU5Njc5OCwtMTUyMjQ4NjA5MCwtMT
+eyJoaXN0b3J5IjpbMTUyNzQyMTUyNywtMTUyMjQ4NjA5MCwtMT
 MxMTY3NTE0LC02MDA0NjE2ODksMTY2NjI3MDM3OSwxMTMzMzQ3
 NzE0LDE0Njg4MDQ5MzAsMTUyNjgxMTA4OCwxMTc4ODk2NTIsLT
 E2NjkwMzA1MzcsLTIwOTczNDI5MDYsLTI5NDc5MjMyOCwtMTE1
