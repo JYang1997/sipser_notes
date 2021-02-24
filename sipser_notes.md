@@ -259,6 +259,7 @@ We can use the machine from Thm 4.7, then put the desired CFG as input, we can d
 From Thm 4.9, we now know that:
 $regular \sub context free\sub decidable \sub Turing recognizable$
 
+There are correponding recognizer machine for regular and context free language. For decidable language, it's recognizer is basically the corresponding turing machine that always halts.
 ## Undecidability
 
 
@@ -270,6 +271,6 @@ $regular \sub context free\sub decidable \sub Turing recognizable$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE3MjM1NzQsLTIwNjQ0OTAzNjIsLT
-E4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
+eyJoaXN0b3J5IjpbMjU3MjQwNzg3LC0yMDY0NDkwMzYyLC0xOD
+IzODkyNzU3LC0xNDk4MjM1OTgxLC03MzI4ODMwMTZdfQ==
 -->
