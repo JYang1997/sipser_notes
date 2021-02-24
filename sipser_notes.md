@@ -248,11 +248,13 @@ The basic idea for proving emptiness problem for CFG is to follow marking algori
 
 >**Theorem 4.9** Every context-free language is decidable.
 
-We can use the machine from Thm 4.7, then put the desires
+We can use the machine from Thm 4.7, then put the desired CFG as input, we can decide whether a string is belong to such CFL. 
 
 
 >**Fact**
 >$EQ_{CFG}$ is not decidable, proof will be shown in next chapter.
+
+
 ## Undecidability
 
 
@@ -264,6 +266,6 @@ We can use the machine from Thm 4.7, then put the desires
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0NTMyMDcsLTIwNjQ0OTAzNjIsLTE4Mj
-M4OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
+eyJoaXN0b3J5IjpbLTU3OTg0NjcxMSwtMjA2NDQ5MDM2MiwtMT
+gyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMyODgzMDE2XX0=
 -->
