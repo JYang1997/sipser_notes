@@ -238,7 +238,7 @@ then if both DFA is equivalent, we know their symmetric difference must be empty
 
 > **Theorem 4.7** $A_{CFG}$ is a decidable language.
 
-$A_{CFG} =$ \{$<G,w>$ | *G* is a *CFG * that generates string $w$\}
+$A_{CFG} =$ \{$<G,w>$ | *G* is a *CFG* that generates string $w$\}
 
 >**Theorem 4.8** $E_{CFG}$ is a decidable language.
 
@@ -255,6 +255,6 @@ $A_{CFG} =$ \{$<G,w>$ | *G* is a *CFG * that generates string $w$\}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2NTc3MjA5LC0xODIzODkyNzU3LC0xND
-k4MjM1OTgxLC03MzI4ODMwMTZdfQ==
+eyJoaXN0b3J5IjpbLTY0NDc1ODgzOSwtMTgyMzg5Mjc1NywtMT
+Q5ODIzNTk4MSwtNzMyODgzMDE2XX0=
 -->
