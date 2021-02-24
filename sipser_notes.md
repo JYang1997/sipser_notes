@@ -242,6 +242,7 @@ $A_{CFG} =$ \{$<G,w>$ | *G* is a *CFG* that generates string $w$\}
 The basic proof idea is to convert CFG to its **Chomsky normal form**, then any derivation can be decided in a finite number of step (2n+1, where n is length of w).
 
 >**Theorem 4.8** $E_{CFG}$ is a decidable language.
+$E_{CFG} =$ \{$<G>$ | *G* is a *CFG* and $L(G) = \empty$\}
 
 >**Theorem 4.9** Every context-free language is decidable.
 
@@ -256,6 +257,6 @@ The basic proof idea is to convert CFG to its **Chomsky normal form**, then any 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjI3MjI5NSwtMTgyMzg5Mjc1NywtMT
+eyJoaXN0b3J5IjpbLTU2MDI3MDE1NiwtMTgyMzg5Mjc1NywtMT
 Q5ODIzNTk4MSwtNzMyODgzMDE2XX0=
 -->
