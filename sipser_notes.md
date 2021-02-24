@@ -244,10 +244,12 @@ The basic proof idea is to convert CFG to its **Chomsky normal form**, then any 
 >**Theorem 4.8** $E_{CFG}$ is a decidable language.
 $E_{CFG} =$ \{$<G>$ | *G* is a *CFG* and $L(G) = \empty$\}
 
-The basic idea for proving emptiness problem for CFG is to follow marking algorithm. You start from terminals of CFG, then reach up, see whether eventually the start symbol got marked. If start symbol marked then basically it means there is a way that start symbol can reach terminals. Hence, reje
+The basic idea for proving emptiness problem for CFG is to follow marking algorithm. You start from terminals of CFG, then reach up, see whether eventually the start symbol got marked. If start symbol marked then basically it means there is a way that start symbol can reach terminals. Hence, reject.
 
 >**Theorem 4.9** Every context-free language is decidable.
 
+>**Fact**
+>$EQ_{CFG} is not decidable, proof will be shown in $
 ## Undecidability
 
 
@@ -259,6 +261,6 @@ The basic idea for proving emptiness problem for CFG is to follow marking algori
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg4ODA3NywtMTgyMzg5Mjc1NywtMT
+eyJoaXN0b3J5IjpbLTE1NDcyODgwMiwtMTgyMzg5Mjc1NywtMT
 Q5ODIzNTk4MSwtNzMyODgzMDE2XX0=
 -->
