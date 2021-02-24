@@ -263,7 +263,8 @@ There are correponding recognizer machine for regular and context free language.
 
 ## Undecidability
 
->
+>**Theorem 4.11**
+>$A_{TM} = \{<M,w>| m \text{ is a } TM \text\}\text{ss ss}$
 
 
 
@@ -272,7 +273,7 @@ There are correponding recognizer machine for regular and context free language.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyODU1MzE3LDEyOTAyMzEyMDUsLTIwNj
-Q0OTAzNjIsLTE4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4
-MzAxNl19
+eyJoaXN0b3J5IjpbLTE1ODc5NzczOTEsMTI5MDIzMTIwNSwtMj
+A2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMy
+ODgzMDE2XX0=
 -->
