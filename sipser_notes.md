@@ -255,6 +255,9 @@ We can use the machine from Thm 4.7, then put the desired CFG as input, we can d
 >$EQ_{CFG}$ is not decidable, proof will be shown in next chapter.
 
 
+**Decidable Summary**
+From Thm 4.9, we now know that:
+$regular \supesub$
 ## Undecidability
 
 
@@ -266,6 +269,6 @@ We can use the machine from Thm 4.7, then put the desired CFG as input, we can d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTg0NjcxMSwtMjA2NDQ5MDM2MiwtMT
-gyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMyODgzMDE2XX0=
+eyJoaXN0b3J5IjpbLTEyMzk2MDY4MDcsLTIwNjQ0OTAzNjIsLT
+E4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
 -->
