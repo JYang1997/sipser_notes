@@ -239,6 +239,7 @@ then if both DFA is equivalent, we know their symmetric difference must be empty
 > **Theorem 4.7** $A_{CFG}$ is a decidable language.
 
 $A_{CFG} =$ \{$<G,w>$ | *G* is a *CFG* that generates string $w$\}
+The basic proof idea is to convert CFG to its **Chomsky normal form**, then any derivation can be decided in a finite number of step (2n+1, where n is length of w).
 
 >**Theorem 4.8** $E_{CFG}$ is a decidable language.
 
@@ -255,6 +256,6 @@ $A_{CFG} =$ \{$<G,w>$ | *G* is a *CFG* that generates string $w$\}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDc1ODgzOSwtMTgyMzg5Mjc1NywtMT
+eyJoaXN0b3J5IjpbLTU4MjI3MjI5NSwtMTgyMzg5Mjc1NywtMT
 Q5ODIzNTk4MSwtNzMyODgzMDE2XX0=
 -->
