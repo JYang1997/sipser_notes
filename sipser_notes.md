@@ -248,6 +248,9 @@ The basic idea for proving emptiness problem for CFG is to follow marking algori
 
 >**Theorem 4.9** Every context-free language is decidable.
 
+We can use the machine from Thm 4.7, then put the desires
+
+
 >**Fact**
 >$EQ_{CFG}$ is not decidable, proof will be shown in next chapter.
 ## Undecidability
@@ -261,6 +264,6 @@ The basic idea for proving emptiness problem for CFG is to follow marking algori
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ0OTAzNjIsLTE4MjM4OTI3NTcsLT
-E0OTgyMzU5ODEsLTczMjg4MzAxNl19
+eyJoaXN0b3J5IjpbNzg0NTMyMDcsLTIwNjQ0OTAzNjIsLTE4Mj
+M4OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
 -->
