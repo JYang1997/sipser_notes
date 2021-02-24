@@ -264,8 +264,8 @@ There are correponding recognizer machine for regular and context free language.
 ## Undecidability
 
 >**Theorem 4.11**
->$A_{TM} = \{<M,w>| m \text{ is a } TM \text\}\text{ss ss}$
-
+>$A_{TM} = \{<M,w>| m \text{ is a } TM \text{ and }M \text{accepts } w\}$
+>$A_{TM}$ (acceptance problem of turing machine)  is undecidable.
 
 
 # Chapter 5 Reducibility
@@ -273,7 +273,7 @@ There are correponding recognizer machine for regular and context free language.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc5NzczOTEsMTI5MDIzMTIwNSwtMj
+eyJoaXN0b3J5IjpbLTE5ODk3MDU0NzYsMTI5MDIzMTIwNSwtMj
 A2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMy
 ODgzMDE2XX0=
 -->
