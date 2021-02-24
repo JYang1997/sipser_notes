@@ -232,7 +232,7 @@ If DFA *A* and *B* is not equivalent, then there must be strings that only accep
 
  $L(C) = (L(A) \cap \overline{L(B)}) \cup (\overline{L(A)} \cap L(B))$
 
-then if both DFA is equivalent, we know their symmetric difference must be empty. Therefore proving A and B are equivalent is same as deciding $L(C)$ is empty. Note, DFA is closed under these operations, then we can construct C based on A and B, then run emptiness decider for C.  QED.
+then if both DFA is equivalent, we know their symmetric difference must be empty. Therefore proving A and B are equivalent is same as deciding $L(C)$ is empty. Note, DFA is closed under these operations, then we can construct C based on A and B, then run emptiness decider (DFA emptiness decider) for C.  QED.
 
 ### Decidable problems concerning Context-Free Languages
 
@@ -253,6 +253,6 @@ then if both DFA is equivalent, we know their symmetric difference must be empty
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ3ODcyOSwtMTQ5ODIzNTk4MSwtNz
-MyODgzMDE2XX0=
+eyJoaXN0b3J5IjpbLTE4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLT
+czMjg4MzAxNl19
 -->
