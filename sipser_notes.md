@@ -237,7 +237,7 @@ then if both DFA is equivalent, we know their symmetric difference must be empty
 ### Decidable problems concerning Context-Free Languages
 
 > **Theorem 4.7** $A_{CFG}$ is a decidable language.
-
+$A_{CFG} =$ \{$<G,w>$ | *A* and *B* are DFAs and $L(A) = L(B)$\}
 >**Theorem 4.8** $E_{CFG}$ is a decidable language.
 
 >**Theorem 4.9** Every context-free language is decidable.
@@ -253,6 +253,6 @@ then if both DFA is equivalent, we know their symmetric difference must be empty
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLT
-czMjg4MzAxNl19
+eyJoaXN0b3J5IjpbMTUyNzA4NjMwNywtMTgyMzg5Mjc1NywtMT
+Q5ODIzNTk4MSwtNzMyODgzMDE2XX0=
 -->
