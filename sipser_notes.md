@@ -260,6 +260,7 @@ From Thm 4.9, we now know that:
 $regular \sub context free\sub decidable \sub Turing recognizable$
 
 There are correponding recognizer machine for regular and context free language. For decidable language, it's recognizer is basically the corresponding turing machine that always halts.
+
 ## Undecidability
 
 
@@ -271,6 +272,6 @@ There are correponding recognizer machine for regular and context free language.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MjQwNzg3LC0yMDY0NDkwMzYyLC0xOD
-IzODkyNzU3LC0xNDk4MjM1OTgxLC03MzI4ODMwMTZdfQ==
+eyJoaXN0b3J5IjpbMTI5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMT
+gyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMyODgzMDE2XX0=
 -->
