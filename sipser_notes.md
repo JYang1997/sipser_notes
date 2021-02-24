@@ -263,7 +263,7 @@ There are correponding recognizer machine for regular and context free language.
 
 ## Undecidability
 
-
+>
 
 
 
@@ -272,6 +272,7 @@ There are correponding recognizer machine for regular and context free language.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMT
-gyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMyODgzMDE2XX0=
+eyJoaXN0b3J5IjpbNzUyODU1MzE3LDEyOTAyMzEyMDUsLTIwNj
+Q0OTAzNjIsLTE4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4
+MzAxNl19
 -->
