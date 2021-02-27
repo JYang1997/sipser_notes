@@ -282,13 +282,14 @@ We can construct a correspondence between set of all languages and an uncountabl
 > **Theorem 4.22**
 > A language is decidable iff it is Turing-recognizable and co-Turing-recognizable.
 
+The basic idea is that the any string
 # Chapter 5 Reducibility
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjM0MTQwNCwxMDQ1MjcxOTc0LC0xMD
-MyNTgzNjM0LDMwNTI5MjA3NCwtMTk4OTcwNTQ3NiwxMjkwMjMx
-MjA1LC0yMDY0NDkwMzYyLC0xODIzODkyNzU3LC0xNDk4MjM1OT
-gxLC03MzI4ODMwMTZdfQ==
+eyJoaXN0b3J5IjpbMTExMDM0NjU3OSwtODEyMzQxNDA0LDEwND
+UyNzE5NzQsLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOTg5NzA1
+NDc2LDEyOTAyMzEyMDUsLTIwNjQ0OTAzNjIsLTE4MjM4OTI3NT
+csLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
 -->
