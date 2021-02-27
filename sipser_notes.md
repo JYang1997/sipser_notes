@@ -275,13 +275,14 @@ We can construct a correspondence between set of all languages and an uncountabl
 > how is this related to Thm 4.11 A_tm?
 
 
+
 # Chapter 5 Reducibility
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MzMxNjEzOCwxMDQ1MjcxOTc0LC0xMD
-MyNTgzNjM0LDMwNTI5MjA3NCwtMTk4OTcwNTQ3NiwxMjkwMjMx
-MjA1LC0yMDY0NDkwMzYyLC0xODIzODkyNzU3LC0xNDk4MjM1OT
-gxLC03MzI4ODMwMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMzI2MzM3MjQsMTA0NTI3MTk3NCwtMT
+AzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMTI5MDIz
+MTIwNSwtMjA2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNT
+k4MSwtNzMyODgzMDE2XX0=
 -->
