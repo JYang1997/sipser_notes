@@ -286,12 +286,15 @@ The basic idea is that the any string must either be in language A or its comple
 one of the two machine must accept the string. Therefore, always halts.
 
 # Chapter 5 Reducibility
+
+> **Theorem 5.1**
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjQ1OTU0OSwtODEyMzQxNDA0LDEwND
-UyNzE5NzQsLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOTg5NzA1
-NDc2LDEyOTAyMzEyMDUsLTIwNjQ0OTAzNjIsLTE4MjM4OTI3NT
-csLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
+eyJoaXN0b3J5IjpbMzk3MzcxMjgzLC05OTY0NTk1NDksLTgxMj
+M0MTQwNCwxMDQ1MjcxOTc0LC0xMDMyNTgzNjM0LDMwNTI5MjA3
+NCwtMTk4OTcwNTQ3NiwxMjkwMjMxMjA1LC0yMDY0NDkwMzYyLC
+0xODIzODkyNzU3LC0xNDk4MjM1OTgxLC03MzI4ODMwMTZdfQ==
+
 -->
