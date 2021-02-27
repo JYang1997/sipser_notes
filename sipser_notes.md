@@ -299,12 +299,15 @@ Proof Idea: reduction from acceptance problem to halting problem.
 
 Proof Idea: reduction from acceptance problem to emptiness problem.
 Idea for constructing acceptance machine based on emptiness machine:
-run emptiness machine on input SIM_M_w, where SIM_M_w is a string describes running w on machine M. 
+run emptiness machine on input SIM_M_w, where SIM_M_w is a string describes running w on machine M. If emptiness machine reject, then M must accepted w.
+
+>**Theorem 5.3**
+>
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA1MDI3MTYsMTkxMzYzMjA5NSwyMT
+eyJoaXN0b3J5IjpbLTE4NzkwMzIzNDgsMTkxMzYzMjA5NSwyMT
 QxNTkyNjg5LDM5NzM3MTI4MywtOTk2NDU5NTQ5LC04MTIzNDE0
 MDQsMTA0NTI3MTk3NCwtMTAzMjU4MzYzNCwzMDUyOTIwNzQsLT
 E5ODk3MDU0NzYsMTI5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMTgy
