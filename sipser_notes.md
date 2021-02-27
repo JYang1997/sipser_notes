@@ -267,6 +267,7 @@ There are correponding recognizer machine for regular and context free language.
 >$A_{TM} = \{<M,w>| m \text{ is a } TM \text{ and }M \text{accepts } w\}$
 >$A_{TM}$ (acceptance problem of turing machine)  is undecidable.
 
+We can constr
 
 
 # Chapter 5 Reducibility
@@ -274,7 +275,7 @@ There are correponding recognizer machine for regular and context free language.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODc1MDA2MzAsLTE5ODk3MDU0NzYsMT
-I5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5
-ODIzNTk4MSwtNzMyODgzMDE2XX0=
+eyJoaXN0b3J5IjpbLTM3NjAwMTE5NywtMTk4OTcwNTQ3NiwxMj
+kwMjMxMjA1LC0yMDY0NDkwMzYyLC0xODIzODkyNzU3LC0xNDk4
+MjM1OTgxLC03MzI4ODMwMTZdfQ==
 -->
