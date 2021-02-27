@@ -268,12 +268,13 @@ There are correponding recognizer machine for regular and context free language.
 >$A_{TM}$ (acceptance problem of turing machine)  is undecidable.
 
 
+
 # Chapter 5 Reducibility
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk3MDU0NzYsMTI5MDIzMTIwNSwtMj
-A2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMy
-ODgzMDE2XX0=
+eyJoaXN0b3J5IjpbLTEwODc1MDA2MzAsLTE5ODk3MDU0NzYsMT
+I5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5
+ODIzNTk4MSwtNzMyODgzMDE2XX0=
 -->
