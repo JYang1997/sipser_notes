@@ -267,6 +267,7 @@ There are correponding recognizer machine for regular and context free language.
 >$A_{TM} = \{<M,w>| m \text{ is a } TM \text{ and }M \text{accepts } w\}$
 >$A_{TM}$ (acceptance problem of turing machine)  is undecidable.
 
+The proof technique for Thm 4.11 is prove by contradiction. We can use Acceptanc
 We can construct a correspondence between set of all languages and an uncountable set, and we can also show that set of all turing machine is countable. Hence, there must exist turing unrecognizable languages. 
 
 >TODO:
@@ -278,7 +279,8 @@ We can construct a correspondence between set of all languages and an uncountabl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOT
-g5NzA1NDc2LDEyOTAyMzEyMDUsLTIwNjQ0OTAzNjIsLTE4MjM4
-OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
+eyJoaXN0b3J5IjpbLTQ2MDMyMTE1OCwtMTAzMjU4MzYzNCwzMD
+UyOTIwNzQsLTE5ODk3MDU0NzYsMTI5MDIzMTIwNSwtMjA2NDQ5
+MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMyODgzMD
+E2XX0=
 -->
