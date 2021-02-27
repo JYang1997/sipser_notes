@@ -274,8 +274,11 @@ We can construct a correspondence between set of all languages and an uncountabl
 >TODO:
 > how is this related to Thm 4.11 A_tm?
 
->> **Definition**
-> A language is coTuring
+
+> **Definition**
+> A language is **co-Turing-Recognizable** if it is the complement of a Turing-recognizable language.
+
+
 > **Theorem 4.22**
 > A language is decidable iff it is Turing-recognizable and co-Turing-recognizable.
 
@@ -284,7 +287,7 @@ We can construct a correspondence between set of all languages and an uncountabl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzM1NDMwMSwxMDQ1MjcxOTc0LC0xMD
+eyJoaXN0b3J5IjpbLTgxMjM0MTQwNCwxMDQ1MjcxOTc0LC0xMD
 MyNTgzNjM0LDMwNTI5MjA3NCwtMTk4OTcwNTQ3NiwxMjkwMjMx
 MjA1LC0yMDY0NDkwMzYyLC0xODIzODkyNzU3LC0xNDk4MjM1OT
 gxLC03MzI4ODMwMTZdfQ==
