@@ -288,13 +288,14 @@ one of the two machine must accept the string. Therefore, always halts.
 # Chapter 5 Reducibility
 
 > **Theorem 5.1**
+> 
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MzcxMjgzLC05OTY0NTk1NDksLTgxMj
-M0MTQwNCwxMDQ1MjcxOTc0LC0xMDMyNTgzNjM0LDMwNTI5MjA3
-NCwtMTk4OTcwNTQ3NiwxMjkwMjMxMjA1LC0yMDY0NDkwMzYyLC
-0xODIzODkyNzU3LC0xNDk4MjM1OTgxLC03MzI4ODMwMTZdfQ==
-
+eyJoaXN0b3J5IjpbLTEwNTAyMzM2MzMsMzk3MzcxMjgzLC05OT
+Y0NTk1NDksLTgxMjM0MTQwNCwxMDQ1MjcxOTc0LC0xMDMyNTgz
+NjM0LDMwNTI5MjA3NCwtMTk4OTcwNTQ3NiwxMjkwMjMxMjA1LC
+0yMDY0NDkwMzYyLC0xODIzODkyNzU3LC0xNDk4MjM1OTgxLC03
+MzI4ODMwMTZdfQ==
 -->
