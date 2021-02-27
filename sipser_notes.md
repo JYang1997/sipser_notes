@@ -290,13 +290,14 @@ one of the two machine must accept the string. Therefore, always halts.
 > **Theorem 5.1**
 > Halting problem of turing machine is undecidable
 
+Proof Idea: reduction from acceptance problem to halting problem.
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDk3NTEwLDM5NzM3MTI4MywtOTk2ND
-U5NTQ5LC04MTIzNDE0MDQsMTA0NTI3MTk3NCwtMTAzMjU4MzYz
-NCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMTI5MDIzMTIwNSwtMj
-A2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMy
-ODgzMDE2XX0=
+eyJoaXN0b3J5IjpbMTMzMzM0MjE5OSwzOTczNzEyODMsLTk5Nj
+Q1OTU0OSwtODEyMzQxNDA0LDEwNDUyNzE5NzQsLTEwMzI1ODM2
+MzQsMzA1MjkyMDc0LC0xOTg5NzA1NDc2LDEyOTAyMzEyMDUsLT
+IwNjQ0OTAzNjIsLTE4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLTcz
+Mjg4MzAxNl19
 -->
