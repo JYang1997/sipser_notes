@@ -267,7 +267,10 @@ There are correponding recognizer machine for regular and context free language.
 >$A_{TM} = \{<M,w>| m \text{ is a } TM \text{ and }M \text{accepts } w\}$
 >$A_{TM}$ (acceptance problem of turing machine)  is undecidable.
 
-We can construct a conrespondence between set of all languages and an uncountable set, and we can also show that set of all turing machine is countable. Hence, there must exist turing unrecognizable languages. Therefore, there must exist a string that is undecidable by
+We can construct a conrespondence between set of all languages and an uncountable set, and we can also show that set of all turing machine is countable. Hence, there must exist turing unrecognizable languages. 
+
+>TODO:
+> how is this related to A_tm?
 
 
 # Chapter 5 Reducibility
@@ -275,7 +278,7 @@ We can construct a conrespondence between set of all languages and an uncountabl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTY2NDAzNSwtMTk4OTcwNTQ3NiwxMj
+eyJoaXN0b3J5IjpbMTk2MDc3NTkwNSwtMTk4OTcwNTQ3NiwxMj
 kwMjMxMjA1LC0yMDY0NDkwMzYyLC0xODIzODkyNzU3LC0xNDk4
 MjM1OTgxLC03MzI4ODMwMTZdfQ==
 -->
