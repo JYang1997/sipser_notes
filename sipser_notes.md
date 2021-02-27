@@ -302,14 +302,14 @@ Idea for constructing acceptance machine based on emptiness machine:
 run emptiness machine on input SIM_M_w, where SIM_M_w is a string describes running w on machine M. If emptiness machine reject, then M must accepted w.
 
 >**Theorem 5.3**
->
+>$REGULAR_{TM} = \{ <M>| M \text{ is a } TM \text{ and } L(M) \text{ is a regular language}\}$
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzkwMzIzNDgsMTkxMzYzMjA5NSwyMT
-QxNTkyNjg5LDM5NzM3MTI4MywtOTk2NDU5NTQ5LC04MTIzNDE0
-MDQsMTA0NTI3MTk3NCwtMTAzMjU4MzYzNCwzMDUyOTIwNzQsLT
-E5ODk3MDU0NzYsMTI5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMTgy
-Mzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMyODgzMDE2XX0=
+eyJoaXN0b3J5IjpbMzAyODQ0MTMwLDE5MTM2MzIwOTUsMjE0MT
+U5MjY4OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtODEyMzQxNDA0
+LDEwNDUyNzE5NzQsLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOT
+g5NzA1NDc2LDEyOTAyMzEyMDUsLTIwNjQ0OTAzNjIsLTE4MjM4
+OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
 -->
