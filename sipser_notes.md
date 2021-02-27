@@ -270,7 +270,7 @@ There are correponding recognizer machine for regular and context free language.
 We can construct a conrespondence between set of all languages and an uncountable set, and we can also show that set of all turing machine is countable. Hence, there must exist turing unrecognizable languages. 
 
 >TODO:
-> how is this related to A_tm?
+> how is this related to Thm 4.11 A_tm?
 
 
 # Chapter 5 Reducibility
@@ -278,7 +278,7 @@ We can construct a conrespondence between set of all languages and an uncountabl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDc3NTkwNSwtMTk4OTcwNTQ3NiwxMj
-kwMjMxMjA1LC0yMDY0NDkwMzYyLC0xODIzODkyNzU3LC0xNDk4
-MjM1OTgxLC03MzI4ODMwMTZdfQ==
+eyJoaXN0b3J5IjpbMzA1MjkyMDc0LC0xOTg5NzA1NDc2LDEyOT
+AyMzEyMDUsLTIwNjQ0OTAzNjIsLTE4MjM4OTI3NTcsLTE0OTgy
+MzU5ODEsLTczMjg4MzAxNl19
 -->
