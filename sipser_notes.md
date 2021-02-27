@@ -298,13 +298,14 @@ Proof Idea: reduction from acceptance problem to halting problem.
 > $E_{TM}$ is undecidable.
 
 Proof Idea: reduction from acceptance problem to emptiness problem.
+run emptiness machine on input SIM_M_w, where SIM_M_w is a string describes running w on machine M.
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzYzMjA5NSwyMTQxNTkyNjg5LDM5Nz
-M3MTI4MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3MTk3
-NCwtMTAzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMT
-I5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5
-ODIzNTk4MSwtNzMyODgzMDE2XX0=
+eyJoaXN0b3J5IjpbLTIyNjkyNDEyMCwxOTEzNjMyMDk1LDIxND
+E1OTI2ODksMzk3MzcxMjgzLC05OTY0NTk1NDksLTgxMjM0MTQw
+NCwxMDQ1MjcxOTc0LC0xMDMyNTgzNjM0LDMwNTI5MjA3NCwtMT
+k4OTcwNTQ3NiwxMjkwMjMxMjA1LC0yMDY0NDkwMzYyLC0xODIz
+ODkyNzU3LC0xNDk4MjM1OTgxLC03MzI4ODMwMTZdfQ==
 -->
