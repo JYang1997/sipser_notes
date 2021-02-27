@@ -291,6 +291,7 @@ one of the two machine must accept the string. Therefore, always halts.
 > Halting problem of turing machine is undecidable
 
 Proof Idea: reduction from acceptance problem to halting problem.
+
 >**Theorem 5.2**
 > Empty problem of turing machine is undecidable
 > $E_{TM} = \{<M> | M \text{ is a } TM \text{ and } L(M) = \empty\}$
@@ -301,9 +302,9 @@ Proof Idea: reduction from acceptance problem to emptiness problem.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTU5MjY4OSwzOTczNzEyODMsLTk5Nj
-Q1OTU0OSwtODEyMzQxNDA0LDEwNDUyNzE5NzQsLTEwMzI1ODM2
-MzQsMzA1MjkyMDc0LC0xOTg5NzA1NDc2LDEyOTAyMzEyMDUsLT
-IwNjQ0OTAzNjIsLTE4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLTcz
-Mjg4MzAxNl19
+eyJoaXN0b3J5IjpbMTkxMzYzMjA5NSwyMTQxNTkyNjg5LDM5Nz
+M3MTI4MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3MTk3
+NCwtMTAzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMT
+I5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5
+ODIzNTk4MSwtNzMyODgzMDE2XX0=
 -->
