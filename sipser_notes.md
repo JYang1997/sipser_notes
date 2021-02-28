@@ -311,12 +311,14 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 >**Fact**
 >**Rice Theorem** states that determining *any property* of the languages recognized by Turing machine is undecidable
 
->
+>**TODO** read rice theorem proof
+
+ 
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjg2ODkxNiwxNDcxODg2Mjg5LDE1OT
+eyJoaXN0b3J5IjpbLTcxNzg3OTMzMSwxNDcxODg2Mjg5LDE1OT
 k5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIwOTUsMjE0MTU5MjY4
 OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtODEyMzQxNDA0LDEwND
 UyNzE5NzQsLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOTg5NzA1
