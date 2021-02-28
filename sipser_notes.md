@@ -316,16 +316,17 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 
  ## Reductions via Computation Histories
  ## Post Correspondence Problem (PCP)
+ ## Mapping Reducibility
  
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTgzODIxMCwtNTY4Nzk1MTksLTcxNz
-g3OTMzMSwxNDcxODg2Mjg5LDE1OTk5Njc0OTgsNTg5OTAyNTg2
-LDE5MTM2MzIwOTUsMjE0MTU5MjY4OSwzOTczNzEyODMsLTk5Nj
-Q1OTU0OSwtODEyMzQxNDA0LDEwNDUyNzE5NzQsLTEwMzI1ODM2
-MzQsMzA1MjkyMDc0LC0xOTg5NzA1NDc2LDEyOTAyMzEyMDUsLT
-IwNjQ0OTAzNjIsLTE4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLTcz
-Mjg4MzAxNl19
+eyJoaXN0b3J5IjpbLTc4MzY3NjAzOSwxMzUxODM4MjEwLC01Nj
+g3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5OTk2NzQ5
+OCw1ODk5MDI1ODYsMTkxMzYzMjA5NSwyMTQxNTkyNjg5LDM5Nz
+M3MTI4MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3MTk3
+NCwtMTAzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMT
+I5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5
+ODIzNTk4MV19
 -->
