@@ -308,14 +308,18 @@ run emptiness machine on input SIM_M_w, where SIM_M_w is a string describes runn
 Proof Idea: still use reduction from acceptance problem to regular language decider.
 The idea is to map input M to a new machine M1, such that this new machine recognize regular language if and only if M accept w. 
 
+>**Fact**
+>**Rice Theorem** states that determining *any property* of the languages recognized by Turing machine is undecidable
+
+>
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OT
-kwMjU4NiwxOTEzNjMyMDk1LDIxNDE1OTI2ODksMzk3MzcxMjgz
-LC05OTY0NTk1NDksLTgxMjM0MTQwNCwxMDQ1MjcxOTc0LC0xMD
-MyNTgzNjM0LDMwNTI5MjA3NCwtMTk4OTcwNTQ3NiwxMjkwMjMx
-MjA1LC0yMDY0NDkwMzYyLC0xODIzODkyNzU3LC0xNDk4MjM1OT
-gxLC03MzI4ODMwMTZdfQ==
+eyJoaXN0b3J5IjpbMTAyNjg2ODkxNiwxNDcxODg2Mjg5LDE1OT
+k5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIwOTUsMjE0MTU5MjY4
+OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtODEyMzQxNDA0LDEwND
+UyNzE5NzQsLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOTg5NzA1
+NDc2LDEyOTAyMzEyMDUsLTIwNjQ0OTAzNjIsLTE4MjM4OTI3NT
+csLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
 -->
