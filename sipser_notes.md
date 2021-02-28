@@ -305,15 +305,17 @@ run emptiness machine on input SIM_M_w, where SIM_M_w is a string describes runn
 >$REGULAR_{TM} = \{ <M>| M \text{ is a } TM \text{ and } L(M) \text{ is a regular language}\}$
 >$REGULAR_{TM}$ is undecidable.
 
-Proof Idea: still use reduction from accept
+Proof Idea: still use reduction from acceptance problem to regular language decider.
+The idea is to map input M to a new machine M1, such that this new machine recognize regular language if and only if M accept w. 
+
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTcxMDYyOTksMTU5OTk2NzQ5OCw1OD
-k5MDI1ODYsMTkxMzYzMjA5NSwyMTQxNTkyNjg5LDM5NzM3MTI4
-MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3MTk3NCwtMT
-AzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMTI5MDIz
-MTIwNSwtMjA2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNT
-k4MSwtNzMyODgzMDE2XX0=
+eyJoaXN0b3J5IjpbMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OT
+kwMjU4NiwxOTEzNjMyMDk1LDIxNDE1OTI2ODksMzk3MzcxMjgz
+LC05OTY0NTk1NDksLTgxMjM0MTQwNCwxMDQ1MjcxOTc0LC0xMD
+MyNTgzNjM0LDMwNTI5MjA3NCwtMTk4OTcwNTQ3NiwxMjkwMjMx
+MjA1LC0yMDY0NDkwMzYyLC0xODIzODkyNzU3LC0xNDk4MjM1OT
+gxLC03MzI4ODMwMTZdfQ==
 -->
