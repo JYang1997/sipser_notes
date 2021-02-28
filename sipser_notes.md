@@ -287,7 +287,7 @@ one of the two machine must accept the string. Therefore, always halts.
 
 # Chapter 5 Reducibility
 
-
+## Few more Undecidable Problems
 > **Theorem 5.1**
 > Halting problem of turing machine is undecidable
 
@@ -314,16 +314,17 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 
 >**TODO** read rice theorem proof
 
+ ## Reductions via Computation Histories
  
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc1NjAwMTcsLTcxNzg3OTMzMSwxND
-cxODg2Mjg5LDE1OTk5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIw
-OTUsMjE0MTU5MjY4OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtOD
-EyMzQxNDA0LDEwNDUyNzE5NzQsLTEwMzI1ODM2MzQsMzA1Mjky
-MDc0LC0xOTg5NzA1NDc2LDEyOTAyMzEyMDUsLTIwNjQ0OTAzNj
-IsLTE4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
+eyJoaXN0b3J5IjpbLTU2ODc5NTE5LC03MTc4NzkzMzEsMTQ3MT
+g4NjI4OSwxNTk5OTY3NDk4LDU4OTkwMjU4NiwxOTEzNjMyMDk1
+LDIxNDE1OTI2ODksMzk3MzcxMjgzLC05OTY0NTk1NDksLTgxMj
+M0MTQwNCwxMDQ1MjcxOTc0LC0xMDMyNTgzNjM0LDMwNTI5MjA3
+NCwtMTk4OTcwNTQ3NiwxMjkwMjMxMjA1LC0yMDY0NDkwMzYyLC
+0xODIzODkyNzU3LC0xNDk4MjM1OTgxLC03MzI4ODMwMTZdfQ==
 
 -->
