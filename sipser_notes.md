@@ -303,14 +303,16 @@ run emptiness machine on input SIM_M_w, where SIM_M_w is a string describes runn
 
 >**Theorem 5.3**
 >$REGULAR_{TM} = \{ <M>| M \text{ is a } TM \text{ and } L(M) \text{ is a regular language}\}$
->$REGULAR_{TM}$ is undecidable
+>$REGULAR_{TM}$ is undecidable.
+
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5OTAyNTg2LDE5MTM2MzIwOTUsMjE0MT
-U5MjY4OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtODEyMzQxNDA0
-LDEwNDUyNzE5NzQsLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOT
-g5NzA1NDc2LDEyOTAyMzEyMDUsLTIwNjQ0OTAzNjIsLTE4MjM4
-OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
+eyJoaXN0b3J5IjpbMTU5OTk2NzQ5OCw1ODk5MDI1ODYsMTkxMz
+YzMjA5NSwyMTQxNTkyNjg5LDM5NzM3MTI4MywtOTk2NDU5NTQ5
+LC04MTIzNDE0MDQsMTA0NTI3MTk3NCwtMTAzMjU4MzYzNCwzMD
+UyOTIwNzQsLTE5ODk3MDU0NzYsMTI5MDIzMTIwNSwtMjA2NDQ5
+MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMyODgzMD
+E2XX0=
 -->
