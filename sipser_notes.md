@@ -287,6 +287,7 @@ one of the two machine must accept the string. Therefore, always halts.
 
 # Chapter 5 Reducibility
 
+
 > **Theorem 5.1**
 > Halting problem of turing machine is undecidable
 
@@ -318,10 +319,11 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzg3OTMzMSwxNDcxODg2Mjg5LDE1OT
-k5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIwOTUsMjE0MTU5MjY4
-OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtODEyMzQxNDA0LDEwND
-UyNzE5NzQsLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOTg5NzA1
-NDc2LDEyOTAyMzEyMDUsLTIwNjQ0OTAzNjIsLTE4MjM4OTI3NT
-csLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
+eyJoaXN0b3J5IjpbLTEzNTc1NjAwMTcsLTcxNzg3OTMzMSwxND
+cxODg2Mjg5LDE1OTk5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIw
+OTUsMjE0MTU5MjY4OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtOD
+EyMzQxNDA0LDEwNDUyNzE5NzQsLTEwMzI1ODM2MzQsMzA1Mjky
+MDc0LC0xOTg5NzA1NDc2LDEyOTAyMzEyMDUsLTIwNjQ0OTAzNj
+IsLTE4MjM4OTI3NTcsLTE0OTgyMzU5ODEsLTczMjg4MzAxNl19
+
 -->
