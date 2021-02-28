@@ -305,14 +305,15 @@ run emptiness machine on input SIM_M_w, where SIM_M_w is a string describes runn
 >$REGULAR_{TM} = \{ <M>| M \text{ is a } TM \text{ and } L(M) \text{ is a regular language}\}$
 >$REGULAR_{TM}$ is undecidable.
 
+Proof Idea: still use reduction from accept
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTk2NzQ5OCw1ODk5MDI1ODYsMTkxMz
-YzMjA5NSwyMTQxNTkyNjg5LDM5NzM3MTI4MywtOTk2NDU5NTQ5
-LC04MTIzNDE0MDQsMTA0NTI3MTk3NCwtMTAzMjU4MzYzNCwzMD
-UyOTIwNzQsLTE5ODk3MDU0NzYsMTI5MDIzMTIwNSwtMjA2NDQ5
-MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNTk4MSwtNzMyODgzMD
-E2XX0=
+eyJoaXN0b3J5IjpbLTIwNTcxMDYyOTksMTU5OTk2NzQ5OCw1OD
+k5MDI1ODYsMTkxMzYzMjA5NSwyMTQxNTkyNjg5LDM5NzM3MTI4
+MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3MTk3NCwtMT
+AzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMTI5MDIz
+MTIwNSwtMjA2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5ODIzNT
+k4MSwtNzMyODgzMDE2XX0=
 -->
