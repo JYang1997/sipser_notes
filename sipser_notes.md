@@ -315,18 +315,21 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 >**TODO** read rice theorem proof
 
  ## Reductions via Computation Histories
+ 
  ## Post Correspondence Problem (PCP)
+ 
  ## Mapping Reducibility
  
+ # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzY3NjAzOSwxMzUxODM4MjEwLC01Nj
-g3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5OTk2NzQ5
-OCw1ODk5MDI1ODYsMTkxMzYzMjA5NSwyMTQxNTkyNjg5LDM5Nz
-M3MTI4MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3MTk3
-NCwtMTAzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMT
-I5MDIzMTIwNSwtMjA2NDQ5MDM2MiwtMTgyMzg5Mjc1NywtMTQ5
-ODIzNTk4MV19
+eyJoaXN0b3J5IjpbLTc3MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNT
+E4MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMTQ3MTg4NjI4
+OSwxNTk5OTY3NDk4LDU4OTkwMjU4NiwxOTEzNjMyMDk1LDIxND
+E1OTI2ODksMzk3MzcxMjgzLC05OTY0NTk1NDksLTgxMjM0MTQw
+NCwxMDQ1MjcxOTc0LC0xMDMyNTgzNjM0LDMwNTI5MjA3NCwtMT
+k4OTcwNTQ3NiwxMjkwMjMxMjA1LC0yMDY0NDkwMzYyLC0xODIz
+ODkyNzU3XX0=
 -->
