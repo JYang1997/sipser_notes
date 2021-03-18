@@ -343,7 +343,7 @@ Note that this is different from turing machine, where acceptance problem is und
 >**Theorem 5.10**
 > $E_{LBA} is undecidable.
 
-Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is that you can contruct a LBA  
+Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is that you can contruct a $E_{LBA}$ which decides whether machine  
 
  ## Post Correspondence Problem (PCP)
  
@@ -354,11 +354,11 @@ Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDUxNTgzMyw2NjAxMzYxNTMsLTE1NT
-Y3MDg1NDIsLTE3NjYzOTQ5MTIsMjEyOTk3NjczOCwyODAwODQx
-MjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgzNjc2MDM5LD
-EzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMTQ3MTg4
-NjI4OSwxNTk5OTY3NDk4LDU4OTkwMjU4NiwxOTEzNjMyMDk1LD
-IxNDE1OTI2ODksMzk3MzcxMjgzLC05OTY0NTk1NDksLTgxMjM0
-MTQwNF19
+eyJoaXN0b3J5IjpbLTE4MzY5MTYzNzMsNjYwMTM2MTUzLC0xNT
+U2NzA4NTQyLC0xNzY2Mzk0OTEyLDIxMjk5NzY3MzgsMjgwMDg0
+MTI4LC0xNzMyMzc3NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOS
+wxMzUxODM4MjEwLC01Njg3OTUxOSwtNzE3ODc5MzMxLDE0NzE4
+ODYyODksMTU5OTk2NzQ5OCw1ODk5MDI1ODYsMTkxMzYzMjA5NS
+wyMTQxNTkyNjg5LDM5NzM3MTI4MywtOTk2NDU5NTQ5LC04MTIz
+NDE0MDRdfQ==
 -->
