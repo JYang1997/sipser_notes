@@ -375,17 +375,22 @@ TODO read proof.
 
 Watch out the difference between 5.22 and 5.23.
 
+> **Theorem 5.28**
+> If $A ≤ m B and B is Turing-recognizable, then A is Turing-recognizable.
+
+>**Corollary 5.29**
+> 
 
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjA3NDg1OCwtMTU1OTQ0MTYzNywtOT
-M5MzEwMjQ4LC0xNTU1MTM4Njg5LDk3NzA5OTM5NywtMTc2NjA1
-MzIxNSw2NjAxMzYxNTMsLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MT
-IsMjEyOTk3NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3
-MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NT
-E5LC03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4
-OTkwMjU4Nl19
+eyJoaXN0b3J5IjpbOTUyODk2MTA2LC0zOTYwNzQ4NTgsLTE1NT
+k0NDE2MzcsLTkzOTMxMDI0OCwtMTU1NTEzODY4OSw5NzcwOTkz
+OTcsLTE3NjYwNTMyMTUsNjYwMTM2MTUzLC0xNTU2NzA4NTQyLC
+0xNzY2Mzk0OTEyLDIxMjk5NzY3MzgsMjgwMDg0MTI4LC0xNzMy
+Mzc3NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUxODM4Mj
+EwLC01Njg3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5
+OTk2NzQ5OF19
 -->
