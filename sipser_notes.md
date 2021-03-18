@@ -345,6 +345,8 @@ Note that this is different from turing machine, where acceptance problem is und
 
 Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is that you can contruct a TM R which is decider for $E_{LBA}$ then construct a LBA machine B such that the machine takes input of computation histories, then accept only if the computation history is accept computation history. Then, if we run R on input $<B>$, if R accept(reject) B, then A must reject(accept).  
 
+>**Theorem 5.13**
+> 
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -354,11 +356,11 @@ Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5MjY5MzYsLTE3NjYwNTMyMTUsNjYwMT
-M2MTUzLC0xNTU2NzA4NTQyLC0xNzY2Mzk0OTEyLDIxMjk5NzY3
-MzgsMjgwMDg0MTI4LC0xNzMyMzc3NDU5LC03NzI0NDYwMDksLT
-c4MzY3NjAzOSwxMzUxODM4MjEwLC01Njg3OTUxOSwtNzE3ODc5
-MzMxLDE0NzE4ODYyODksMTU5OTk2NzQ5OCw1ODk5MDI1ODYsMT
-kxMzYzMjA5NSwyMTQxNTkyNjg5LDM5NzM3MTI4MywtOTk2NDU5
-NTQ5XX0=
+eyJoaXN0b3J5IjpbOTc3MDk5Mzk3LC0xNzY2MDUzMjE1LDY2MD
+EzNjE1MywtMTU1NjcwODU0MiwtMTc2NjM5NDkxMiwyMTI5OTc2
+NzM4LDI4MDA4NDEyOCwtMTczMjM3NzQ1OSwtNzcyNDQ2MDA5LC
+03ODM2NzYwMzksMTM1MTgzODIxMCwtNTY4Nzk1MTksLTcxNzg3
+OTMzMSwxNDcxODg2Mjg5LDE1OTk5Njc0OTgsNTg5OTAyNTg2LD
+E5MTM2MzIwOTUsMjE0MTU5MjY4OSwzOTczNzEyODMsLTk5NjQ1
+OTU0OV19
 -->
