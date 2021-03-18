@@ -338,7 +338,11 @@ The computation history method is an important technique for proving that $A_{TM
 >  $A_{LBA} = \{<M,w> | M \text{ is an }  LBA \text{ that accepts string } w\}$
 >  $A_{LBA}$ is decidable.
 
-Note that this is different from turing machine, where acceptance problem is undeciadable for regular turing machine. But thanks to lemma 5.8, we know there are only finite amount of distinct configurations, therefore, if machine still run after that much steps, then the machine must be in some loops therefore never accept.
+Note that this is different from turing machine, where acceptance problem is undecidable for regular turing machine. But thanks to lemma 5.8, we know there are only finite amount of distinct configurations, therefore, if machine still run after that much steps, then the machine must be in some loops therefore never accept.
+
+>**Theorem 5.10**
+> $E_{LBA} is undecidable.
+
 
  ## Post Correspondence Problem (PCP)
  
@@ -349,11 +353,11 @@ Note that this is different from turing machine, where acceptance problem is und
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5MjExOTEsLTE1NTY3MDg1NDIsLTE3Nj
-YzOTQ5MTIsMjEyOTk3NjczOCwyODAwODQxMjgsLTE3MzIzNzc0
-NTksLTc3MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLT
-U2ODc5NTE5LC03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNTk5OTY3
-NDk4LDU4OTkwMjU4NiwxOTEzNjMyMDk1LDIxNDE1OTI2ODksMz
-k3MzcxMjgzLC05OTY0NTk1NDksLTgxMjM0MTQwNCwxMDQ1Mjcx
-OTc0XX0=
+eyJoaXN0b3J5IjpbNjYwMTM2MTUzLC0xNTU2NzA4NTQyLC0xNz
+Y2Mzk0OTEyLDIxMjk5NzY3MzgsMjgwMDg0MTI4LC0xNzMyMzc3
+NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUxODM4MjEwLC
+01Njg3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5OTk2
+NzQ5OCw1ODk5MDI1ODYsMTkxMzYzMjA5NSwyMTQxNTkyNjg5LD
+M5NzM3MTI4MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3
+MTk3NF19
 -->
