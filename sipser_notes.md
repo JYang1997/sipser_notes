@@ -364,19 +364,19 @@ TODO read proof.
 >**Definition 5.20** (Formal definition of mapping reducibility)
 > Language A is **mapping reducible** to language B, written $A ≤_m B$,
 > if there is a computable function $f : Σ^∗ → Σ^∗$ , where for every $w$,
-w ∈ A ⇐⇒ f (w) ∈ B.
-The function f is called the reduction from A to B.
+	> 							$w ∈ A ⇐⇒ f (w) ∈ B$
+> The function f is called the reduction from A to B.
 
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMzMjA5MzcsLTE1NTk0NDE2MzcsLT
-kzOTMxMDI0OCwtMTU1NTEzODY4OSw5NzcwOTkzOTcsLTE3NjYw
-NTMyMTUsNjYwMTM2MTUzLC0xNTU2NzA4NTQyLC0xNzY2Mzk0OT
-EyLDIxMjk5NzY3MzgsMjgwMDg0MTI4LC0xNzMyMzc3NDU5LC03
-NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUxODM4MjEwLC01Njg3OT
-UxOSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5OTk2NzQ5OCw1
-ODk5MDI1ODZdfQ==
+eyJoaXN0b3J5IjpbMTU4OTY1MTY1NSwtMTU1OTQ0MTYzNywtOT
+M5MzEwMjQ4LC0xNTU1MTM4Njg5LDk3NzA5OTM5NywtMTc2NjA1
+MzIxNSw2NjAxMzYxNTMsLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MT
+IsMjEyOTk3NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3
+MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NT
+E5LC03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4
+OTkwMjU4Nl19
 -->
