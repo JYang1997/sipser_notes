@@ -343,7 +343,7 @@ Note that this is different from turing machine, where acceptance problem is und
 >**Theorem 5.10**
 > $E_{LBA} is undecidable.
 
-Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is that you can contruct a TM R which is decider for $E_{LBA}$ then construct a LBA machine B such that the machine takes input of computation histories, then accept only if the computation history is accept computation histories. 
+Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is that you can contruct a TM R which is decider for $E_{LBA}$ then construct a LBA machine B such that the machine takes input of computation histories, then accept only if the computation history is accept computation history. Then, if we run R on input $<B>$, if R accept B, then   
 
  ## Post Correspondence Problem (PCP)
  
@@ -354,11 +354,11 @@ Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgxMjg0MjIsLTE3NjYwNTMyMTUsNj
-YwMTM2MTUzLC0xNTU2NzA4NTQyLC0xNzY2Mzk0OTEyLDIxMjk5
-NzY3MzgsMjgwMDg0MTI4LC0xNzMyMzc3NDU5LC03NzI0NDYwMD
-ksLTc4MzY3NjAzOSwxMzUxODM4MjEwLC01Njg3OTUxOSwtNzE3
-ODc5MzMxLDE0NzE4ODYyODksMTU5OTk2NzQ5OCw1ODk5MDI1OD
-YsMTkxMzYzMjA5NSwyMTQxNTkyNjg5LDM5NzM3MTI4MywtOTk2
-NDU5NTQ5XX0=
+eyJoaXN0b3J5IjpbMTgxNzk4OTAxMiwtMTc2NjA1MzIxNSw2Nj
+AxMzYxNTMsLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMjEyOTk3
+NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOS
+wtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4
+NzkzMzEsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OTkwMjU4Ni
+wxOTEzNjMyMDk1LDIxNDE1OTI2ODksMzk3MzcxMjgzLC05OTY0
+NTk1NDldfQ==
 -->
