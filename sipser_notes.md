@@ -324,9 +324,10 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 The computation history method is an important technique for proving that $A_{TM}$ is reducible to certain languages. This method is often useful when the problem to be shown undecidable involves testing for the existence of some-thing.
 
 > **Definition 5.5**
-> Let M be a Turing machine and w an input string. An accepting computation history for M on w is a sequence of configurations, $C_1 , C_2 , . . . , C_l$ , where $C_1$ is the start configuration of M on w, $C_l$ is an accepting configuration of $M$ , and each $C_i$ legally follows from $C_{i−1}$ according to the rules of $M . A rejecting computation his-
-tory for M on w is defined similarly, except that C l is a rejecting
-configuration.
+> Let M be a Turing machine and w an input string. An **accepting computation history** for M on w is a sequence of configurations, $C_1 , C_2 , . . . , C_l$ , where $C_1$ is the **start configuration** of M on w, $C_l$ is an accepting configuration of $M$ , and each $C_i$ legally follows from $C_{i−1}$ according to the rules of $M$. A **rejecting computation history** for $M$ on $w$ is defined similarly, except that$C_l$ is a **rejecting configuration**.
+ 
+ > **Definition 5.6**
+ >  A 
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -336,7 +337,7 @@ configuration.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc0Mzg5NzgsMjEyOTk3NjczOCwyOD
+eyJoaXN0b3J5IjpbLTEwNjExNDM1ODcsMjEyOTk3NjczOCwyOD
 AwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgzNjc2
 MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMT
 Q3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OTkwMjU4NiwxOTEzNjMy
