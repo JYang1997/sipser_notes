@@ -356,13 +356,15 @@ TODO read proof.
   
   **Notes:**
   We say problem A is reducible to problem B, that means there is a transformation function that convert instance of A to instance of B. Then if you can solve problem B, similarily you solved problem A. When question is concerning decidability of problem B, we can start by assuming there is decider for B, then try to come up with reduction that can reduce some undecidable problem A to B. In such way, we constructed a contradiction proof.
-  
+
+>**Definition 5.17**
+	> A function f :
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzkzOTgwMywtMTU1NTEzODY4OSw5Nz
+eyJoaXN0b3J5IjpbLTkzOTMxMDI0OCwtMTU1NTEzODY4OSw5Nz
 cwOTkzOTcsLTE3NjYwNTMyMTUsNjYwMTM2MTUzLC0xNTU2NzA4
 NTQyLC0xNzY2Mzk0OTEyLDIxMjk5NzY3MzgsMjgwMDg0MTI4LC
 0xNzMyMzc3NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUx
