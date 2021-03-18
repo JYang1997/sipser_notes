@@ -358,17 +358,17 @@ TODO read proof.
   We say problem A is reducible to problem B, that means there is a transformation function that convert instance of A to instance of B. Then if you can solve problem B, similarily you solved problem A. When question is concerning decidability of problem B, we can start by assuming there is decider for B, then try to come up with reduction that can reduce some undecidable problem A to B. In such way, we constructed a contradiction proof.
 
 >**Definition 5.17**
-	> A function f :
+	> A function $f : \Sigma^* \rightarrow \Sigma^*$ is a 
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTMxMDI0OCwtMTU1NTEzODY4OSw5Nz
-cwOTkzOTcsLTE3NjYwNTMyMTUsNjYwMTM2MTUzLC0xNTU2NzA4
-NTQyLC0xNzY2Mzk0OTEyLDIxMjk5NzY3MzgsMjgwMDg0MTI4LC
-0xNzMyMzc3NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUx
-ODM4MjEwLC01Njg3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyOD
-ksMTU5OTk2NzQ5OCw1ODk5MDI1ODYsMTkxMzYzMjA5NSwyMTQx
-NTkyNjg5XX0=
+eyJoaXN0b3J5IjpbLTMwMDg5ODY2OCwtOTM5MzEwMjQ4LC0xNT
+U1MTM4Njg5LDk3NzA5OTM5NywtMTc2NjA1MzIxNSw2NjAxMzYx
+NTMsLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMjEyOTk3NjczOC
+wyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgz
+Njc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMz
+EsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OTkwMjU4NiwxOTEz
+NjMyMDk1XX0=
 -->
