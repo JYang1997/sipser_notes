@@ -316,7 +316,10 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 
 > **Theorem 5.4**
 > $EQ_{TM} = \{ <M_1, M_2>| M_1 \text{ and } M_2 \text{ are } TMs \text{ and } L(M_1) = L(M_2)\}$
->$REGULAR_{TM}$ is undecidable.
+>$EQ_{TM}$ is undecidable.
+ 
+ Proof Idea:
+ 
  ## Reductions via Computation Histories
  
  ## Post Correspondence Problem (PCP)
@@ -328,11 +331,11 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwMDg0MTI4LC0xNzMyMzc3NDU5LC03Nz
-I0NDYwMDksLTc4MzY3NjAzOSwxMzUxODM4MjEwLC01Njg3OTUx
-OSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5OTk2NzQ5OCw1OD
-k5MDI1ODYsMTkxMzYzMjA5NSwyMTQxNTkyNjg5LDM5NzM3MTI4
-MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3MTk3NCwtMT
-AzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMTI5MDIz
-MTIwNV19
+eyJoaXN0b3J5IjpbMzY1MzI1MzgxLDI4MDA4NDEyOCwtMTczMj
+M3NzQ1OSwtNzcyNDQ2MDA5LC03ODM2NzYwMzksMTM1MTgzODIx
+MCwtNTY4Nzk1MTksLTcxNzg3OTMzMSwxNDcxODg2Mjg5LDE1OT
+k5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIwOTUsMjE0MTU5MjY4
+OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtODEyMzQxNDA0LDEwND
+UyNzE5NzQsLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOTg5NzA1
+NDc2XX0=
 -->
