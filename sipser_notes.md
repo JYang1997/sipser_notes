@@ -346,7 +346,10 @@ Note that this is different from turing machine, where acceptance problem is und
 Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is that you can contruct a TM R which is decider for $E_{LBA}$ then construct a LBA machine B such that the machine takes input of computation histories, then accept only if the computation history is accept computation history. Then, if we run R on input $<B>$, if R accept(reject) B, then A must reject(accept).  
 
 >**Theorem 5.13**
-> 
+>  $ALL_{CFG}$ is undecidable. 
+
+TODO read proof.
+
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -356,11 +359,11 @@ Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3MDk5Mzk3LC0xNzY2MDUzMjE1LDY2MD
-EzNjE1MywtMTU1NjcwODU0MiwtMTc2NjM5NDkxMiwyMTI5OTc2
-NzM4LDI4MDA4NDEyOCwtMTczMjM3NzQ1OSwtNzcyNDQ2MDA5LC
-03ODM2NzYwMzksMTM1MTgzODIxMCwtNTY4Nzk1MTksLTcxNzg3
-OTMzMSwxNDcxODg2Mjg5LDE1OTk5Njc0OTgsNTg5OTAyNTg2LD
-E5MTM2MzIwOTUsMjE0MTU5MjY4OSwzOTczNzEyODMsLTk5NjQ1
-OTU0OV19
+eyJoaXN0b3J5IjpbLTE1NTUxMzg2ODksOTc3MDk5Mzk3LC0xNz
+Y2MDUzMjE1LDY2MDEzNjE1MywtMTU1NjcwODU0MiwtMTc2NjM5
+NDkxMiwyMTI5OTc2NzM4LDI4MDA4NDEyOCwtMTczMjM3NzQ1OS
+wtNzcyNDQ2MDA5LC03ODM2NzYwMzksMTM1MTgzODIxMCwtNTY4
+Nzk1MTksLTcxNzg3OTMzMSwxNDcxODg2Mjg5LDE1OTk5Njc0OT
+gsNTg5OTAyNTg2LDE5MTM2MzIwOTUsMjE0MTU5MjY4OSwzOTcz
+NzEyODNdfQ==
 -->
