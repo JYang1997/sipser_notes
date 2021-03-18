@@ -383,6 +383,7 @@ Watch out the difference between 5.22 and 5.23.
 
 **Notes:**
 From Thm 4.22, we know that $A_{TM}$ can not be co-Turing-recognizable, or $\overline{A_{TM}}$ is not Turing recognizable. 
+Also, the mapping reducibility $A \leq_m$
 
 
 >**Theorem 5.30**
@@ -394,11 +395,11 @@ Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc4NjYxMTcsNTc1Njc5Nzc3LC0zOT
-YwNzQ4NTgsLTE1NTk0NDE2MzcsLTkzOTMxMDI0OCwtMTU1NTEz
-ODY4OSw5NzcwOTkzOTcsLTE3NjYwNTMyMTUsNjYwMTM2MTUzLC
-0xNTU2NzA4NTQyLC0xNzY2Mzk0OTEyLDIxMjk5NzY3MzgsMjgw
-MDg0MTI4LC0xNzMyMzc3NDU5LC03NzI0NDYwMDksLTc4MzY3Nj
-AzOSwxMzUxODM4MjEwLC01Njg3OTUxOSwtNzE3ODc5MzMxLDE0
-NzE4ODYyODldfQ==
+eyJoaXN0b3J5IjpbMTIyMDQyODg5Myw1NzU2Nzk3NzcsLTM5Nj
+A3NDg1OCwtMTU1OTQ0MTYzNywtOTM5MzEwMjQ4LC0xNTU1MTM4
+Njg5LDk3NzA5OTM5NywtMTc2NjA1MzIxNSw2NjAxMzYxNTMsLT
+E1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMjEyOTk3NjczOCwyODAw
+ODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgzNjc2MD
+M5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMTQ3
+MTg4NjI4OV19
 -->
