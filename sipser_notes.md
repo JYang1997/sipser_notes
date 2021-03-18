@@ -315,7 +315,7 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 >**TODO** read rice theorem proof
 
 > **Theorem 5.4**
-> $EQ_{TM} = \{ <M_1, M_2>| M_1 \text{ and } M_2 \text{ are } TMs \text{ and } L(M_1\}$
+> $EQ_{TM} = \{ <M_1, M_2>| M_1 \text{ and } M_2 \text{ are } TMs \text{ and } L(M_1) = L(M_2)\}$
 >$REGULAR_{TM}$ is undecidable.
  ## Reductions via Computation Histories
  
@@ -328,11 +328,11 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM4MTMwODksLTE3MzIzNzc0NTksLT
-c3MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5
-NTE5LC03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LD
-U4OTkwMjU4NiwxOTEzNjMyMDk1LDIxNDE1OTI2ODksMzk3Mzcx
-MjgzLC05OTY0NTk1NDksLTgxMjM0MTQwNCwxMDQ1MjcxOTc0LC
-0xMDMyNTgzNjM0LDMwNTI5MjA3NCwtMTk4OTcwNTQ3NiwxMjkw
-MjMxMjA1XX0=
+eyJoaXN0b3J5IjpbMjgwMDg0MTI4LC0xNzMyMzc3NDU5LC03Nz
+I0NDYwMDksLTc4MzY3NjAzOSwxMzUxODM4MjEwLC01Njg3OTUx
+OSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5OTk2NzQ5OCw1OD
+k5MDI1ODYsMTkxMzYzMjA5NSwyMTQxNTkyNjg5LDM5NzM3MTI4
+MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3MTk3NCwtMT
+AzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3MDU0NzYsMTI5MDIz
+MTIwNV19
 -->
