@@ -335,7 +335,8 @@ The computation history method is an important technique for proving that $A_{TM
 > Let M be an LBA with q states and g symbols in the tape alphabet. There are exactly $qng^n$ distinct configurations of M for a tape of length n.
 
 > **Theorem 5.9**
->  $A_{LBA} = \{<M,w> | M \text{ is an }  LBA \text{ that accepts string } w\ }$
+>  $A_{LBA} = \{<M,w> | M \text{ is an }  LBA \text{ that accepts string } w\}$
+>  $A_{LBA}$ is undecidable
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -345,7 +346,7 @@ The computation history method is an important technique for proving that $A_{TM
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgwODE2MTcsLTE3NjYzOTQ5MTIsMj
+eyJoaXN0b3J5IjpbLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMj
 EyOTk3NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0
 NjAwOSwtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC
 03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OTkw
