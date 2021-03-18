@@ -390,7 +390,7 @@ GIven two facts above, we can use  Corollary 5.29 above to show that B is not Tu
 >**Theorem 5.30**
 > $EQ_{TM}$ is neither Turing-recognizable nor co-Turing-recognizable.
 
-Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{TM}}$,
+Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{TM}}$, ther other reduce $A_{TM}$ to $EQ_{TM}$.
 
 
  # Chapter 6
@@ -398,11 +398,11 @@ Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjQ4NzEwLDU3NTY3OTc3NywtMzk2MD
-c0ODU4LC0xNTU5NDQxNjM3LC05MzkzMTAyNDgsLTE1NTUxMzg2
-ODksOTc3MDk5Mzk3LC0xNzY2MDUzMjE1LDY2MDEzNjE1MywtMT
-U1NjcwODU0MiwtMTc2NjM5NDkxMiwyMTI5OTc2NzM4LDI4MDA4
-NDEyOCwtMTczMjM3NzQ1OSwtNzcyNDQ2MDA5LC03ODM2NzYwMz
-ksMTM1MTgzODIxMCwtNTY4Nzk1MTksLTcxNzg3OTMzMSwxNDcx
-ODg2Mjg5XX0=
+eyJoaXN0b3J5IjpbOTY0NTcxMDE1LC02MjI0ODcxMCw1NzU2Nz
+k3NzcsLTM5NjA3NDg1OCwtMTU1OTQ0MTYzNywtOTM5MzEwMjQ4
+LC0xNTU1MTM4Njg5LDk3NzA5OTM5NywtMTc2NjA1MzIxNSw2Nj
+AxMzYxNTMsLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMjEyOTk3
+NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOS
+wtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4
+NzkzMzFdfQ==
 -->
