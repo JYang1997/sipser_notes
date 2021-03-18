@@ -318,10 +318,10 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 > $EQ_{TM} = \{ <M_1, M_2>| M_1 \text{ and } M_2 \text{ are } TMs \text{ and } L(M_1) = L(M_2)\}$
 >$EQ_{TM}$ is undecidable.
  
- Proof Idea: One should realize that $E_{TM}$ is a special case of $EQ_{TM}$, if we have a machine to solve EQ, then solving E should be trivial. Since we already know E is undeciadable then immediatel
+ Proof Idea: One should realize that $E_{TM}$ is a special case of $EQ_{TM}$, if we have a machine to solve EQ, then solving E should be trivial. Since we already know E is undeciadable then immediately follows is that EQ must also be undecidable.
  
  ## Reductions via Computation Histories
- 
+ The computation history 
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -331,7 +331,7 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTM1NzgxMiwyODAwODQxMjgsLTE3Mz
+eyJoaXN0b3J5IjpbMTAxNTE5OTg0MSwyODAwODQxMjgsLTE3Mz
 IzNzc0NTksLTc3MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNTE4Mzgy
 MTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNT
 k5OTY3NDk4LDU4OTkwMjU4NiwxOTEzNjMyMDk1LDIxNDE1OTI2
