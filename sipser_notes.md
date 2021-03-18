@@ -361,16 +361,19 @@ TODO read proof.
 	> A function $f : \Sigma^* \rightarrow \Sigma^*$ is a **computable function** is some turing machine $M$, on every input $w$, halts with just $f(w)$ on tape.
 
 
+>**Definition 5.20** (Formal definition of mapping reducibility)
+>
+
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk0NDE2MzcsLTkzOTMxMDI0OCwtMT
-U1NTEzODY4OSw5NzcwOTkzOTcsLTE3NjYwNTMyMTUsNjYwMTM2
-MTUzLC0xNTU2NzA4NTQyLC0xNzY2Mzk0OTEyLDIxMjk5NzY3Mz
-gsMjgwMDg0MTI4LC0xNzMyMzc3NDU5LC03NzI0NDYwMDksLTc4
-MzY3NjAzOSwxMzUxODM4MjEwLC01Njg3OTUxOSwtNzE3ODc5Mz
-MxLDE0NzE4ODYyODksMTU5OTk2NzQ5OCw1ODk5MDI1ODYsMTkx
-MzYzMjA5NV19
+eyJoaXN0b3J5IjpbMzk4ODAwNzU0LC0xNTU5NDQxNjM3LC05Mz
+kzMTAyNDgsLTE1NTUxMzg2ODksOTc3MDk5Mzk3LC0xNzY2MDUz
+MjE1LDY2MDEzNjE1MywtMTU1NjcwODU0MiwtMTc2NjM5NDkxMi
+wyMTI5OTc2NzM4LDI4MDA4NDEyOCwtMTczMjM3NzQ1OSwtNzcy
+NDQ2MDA5LC03ODM2NzYwMzksMTM1MTgzODIxMCwtNTY4Nzk1MT
+ksLTcxNzg3OTMzMSwxNDcxODg2Mjg5LDE1OTk5Njc0OTgsNTg5
+OTAyNTg2XX0=
 -->
