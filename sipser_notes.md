@@ -318,7 +318,7 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 > $EQ_{TM} = \{ <M_1, M_2>| M_1 \text{ and } M_2 \text{ are } TMs \text{ and } L(M_1) = L(M_2)\}$
 >$EQ_{TM}$ is undecidable.
  
- Proof Idea:
+ Proof Idea: One should realize that $E_{TM{$
  
  ## Reductions via Computation Histories
  
@@ -331,11 +331,11 @@ The idea is to map input M to a new machine M1, such that this new machine recog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1MzI1MzgxLDI4MDA4NDEyOCwtMTczMj
-M3NzQ1OSwtNzcyNDQ2MDA5LC03ODM2NzYwMzksMTM1MTgzODIx
-MCwtNTY4Nzk1MTksLTcxNzg3OTMzMSwxNDcxODg2Mjg5LDE1OT
-k5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIwOTUsMjE0MTU5MjY4
-OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtODEyMzQxNDA0LDEwND
-UyNzE5NzQsLTEwMzI1ODM2MzQsMzA1MjkyMDc0LC0xOTg5NzA1
-NDc2XX0=
+eyJoaXN0b3J5IjpbLTE5NjM3NDM4NTgsMjgwMDg0MTI4LC0xNz
+MyMzc3NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUxODM4
+MjEwLC01Njg3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMT
+U5OTk2NzQ5OCw1ODk5MDI1ODYsMTkxMzYzMjA5NSwyMTQxNTky
+Njg5LDM5NzM3MTI4MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMT
+A0NTI3MTk3NCwtMTAzMjU4MzYzNCwzMDUyOTIwNzQsLTE5ODk3
+MDU0NzZdfQ==
 -->
