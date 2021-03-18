@@ -370,14 +370,18 @@ TODO read proof.
 > **Theorem 5.22**
 > If $A ≤_m B$ and B is decidable, then A is decidable.
 
-> ** Corollary 5.23**
-> 
+> **Corollary 5.23**
+> If $A ≤_m B$ and A is undecidable, then B is undecidable.
+
+Watch out the difference between 5.22 and 5.23.
+
+
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODkwMjYzNiwtMTU1OTQ0MTYzNywtOT
+eyJoaXN0b3J5IjpbLTM5NjA3NDg1OCwtMTU1OTQ0MTYzNywtOT
 M5MzEwMjQ4LC0xNTU1MTM4Njg5LDk3NzA5OTM5NywtMTc2NjA1
 MzIxNSw2NjAxMzYxNTMsLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MT
 IsMjEyOTk3NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3
