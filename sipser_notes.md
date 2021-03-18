@@ -367,17 +367,21 @@ TODO read proof.
 > $w ∈ A ⇐⇒ f (w) ∈ B$
 > The function $f$ is called the **reduction** from A to B.
 
-> **Theorem 5.22*
+> **Theorem 5.22**
+> If $A ≤_m B$ and B is decidable, then A is decidable.
+
+> ** Corollary 5.23**
+> 
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyMTMwNjQ4LC0xNTU5NDQxNjM3LC05Mz
-kzMTAyNDgsLTE1NTUxMzg2ODksOTc3MDk5Mzk3LC0xNzY2MDUz
-MjE1LDY2MDEzNjE1MywtMTU1NjcwODU0MiwtMTc2NjM5NDkxMi
-wyMTI5OTc2NzM4LDI4MDA4NDEyOCwtMTczMjM3NzQ1OSwtNzcy
-NDQ2MDA5LC03ODM2NzYwMzksMTM1MTgzODIxMCwtNTY4Nzk1MT
-ksLTcxNzg3OTMzMSwxNDcxODg2Mjg5LDE1OTk5Njc0OTgsNTg5
-OTAyNTg2XX0=
+eyJoaXN0b3J5IjpbMTkzODkwMjYzNiwtMTU1OTQ0MTYzNywtOT
+M5MzEwMjQ4LC0xNTU1MTM4Njg5LDk3NzA5OTM5NywtMTc2NjA1
+MzIxNSw2NjAxMzYxNTMsLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MT
+IsMjEyOTk3NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3
+MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NT
+E5LC03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4
+OTkwMjU4Nl19
 -->
