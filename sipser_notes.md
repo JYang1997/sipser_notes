@@ -323,6 +323,8 @@ The idea is to map input M to a new machine M1, such that this new machine recog
  ## Reductions via Computation Histories
 The computation history method is an important technique for proving that $A_{TM}$ is reducible to certain languages. This method is often useful when the problem to be shown undecidable involves testing for the existence of some-thing.
 
+> **Definition 5.5**
+> 
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -332,11 +334,11 @@ The computation history method is an important technique for proving that $A_{TM
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTk3NjczOCwyODAwODQxMjgsLTE3Mz
-IzNzc0NTksLTc3MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNTE4Mzgy
-MTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNT
-k5OTY3NDk4LDU4OTkwMjU4NiwxOTEzNjMyMDk1LDIxNDE1OTI2
-ODksMzk3MzcxMjgzLC05OTY0NTk1NDksLTgxMjM0MTQwNCwxMD
-Q1MjcxOTc0LC0xMDMyNTgzNjM0LDMwNTI5MjA3NCwtMTk4OTcw
-NTQ3Nl19
+eyJoaXN0b3J5IjpbLTYwNjgxMDM1NywyMTI5OTc2NzM4LDI4MD
+A4NDEyOCwtMTczMjM3NzQ1OSwtNzcyNDQ2MDA5LC03ODM2NzYw
+MzksMTM1MTgzODIxMCwtNTY4Nzk1MTksLTcxNzg3OTMzMSwxND
+cxODg2Mjg5LDE1OTk5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIw
+OTUsMjE0MTU5MjY4OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtOD
+EyMzQxNDA0LDEwNDUyNzE5NzQsLTEwMzI1ODM2MzQsMzA1Mjky
+MDc0XX0=
 -->
