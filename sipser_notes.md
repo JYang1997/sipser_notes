@@ -329,6 +329,7 @@ The computation history method is an important technique for proving that $A_{TM
  > **Definition 5.6**
  >  A **Linear Bounded Automation** or $M_{LBA}$ is a restricted type of Turing machine wherein the tape head isn’t permitted to move off the portion of the tape containing the input. If the machine tries to move its head off either end of the input, the head stays where it is—in the same way that the head will not move off the left-hand end of an ordinary Turing machine’s tape.
  
+ Despite their memory constraint, $M_{LBA}$ is a powerful machine. The deciders $A_{DFA}, A_{CFG}$
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -338,7 +339,7 @@ The computation history method is an important technique for proving that $A_{TM
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzY4MDM0NiwyMTI5OTc2NzM4LDI4MD
+eyJoaXN0b3J5IjpbMTc3MzQ0NzIwMCwyMTI5OTc2NzM4LDI4MD
 A4NDEyOCwtMTczMjM3NzQ1OSwtNzcyNDQ2MDA5LC03ODM2NzYw
 MzksMTM1MTgzODIxMCwtNTY4Nzk1MTksLTcxNzg3OTMzMSwxND
 cxODg2Mjg5LDE1OTk5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIw
