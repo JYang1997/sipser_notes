@@ -334,6 +334,8 @@ The computation history method is an important technique for proving that $A_{TM
 >**Lemma 5.8**
 > Let M be an LBA with q states and g symbols in the tape alphabet. There are exactly $qng^n$ distinct configurations of M for a tape of length n.
 
+> **Theorem 5.9**
+>  $A_{LBA} = \{<M,w> | M \text{ is an }  LBA \text{ that accepts string } w\ }$
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -343,11 +345,11 @@ The computation history method is an important technique for proving that $A_{TM
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjYzOTQ5MTIsMjEyOTk3NjczOCwyOD
-AwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgzNjc2
-MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMT
-Q3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OTkwMjU4NiwxOTEzNjMy
-MDk1LDIxNDE1OTI2ODksMzk3MzcxMjgzLC05OTY0NTk1NDksLT
-gxMjM0MTQwNCwxMDQ1MjcxOTc0LC0xMDMyNTgzNjM0LDMwNTI5
-MjA3NF19
+eyJoaXN0b3J5IjpbLTEyNTgwODE2MTcsLTE3NjYzOTQ5MTIsMj
+EyOTk3NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0
+NjAwOSwtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC
+03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OTkw
+MjU4NiwxOTEzNjMyMDk1LDIxNDE1OTI2ODksMzk3MzcxMjgzLC
+05OTY0NTk1NDksLTgxMjM0MTQwNCwxMDQ1MjcxOTc0LC0xMDMy
+NTgzNjM0XX0=
 -->
