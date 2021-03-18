@@ -383,7 +383,8 @@ Watch out the difference between 5.22 and 5.23.
 
 **Notes:**
 From Thm 4.22, we know that $A_{TM}$ can not be co-Turing-recognizable, or $\overline{A_{TM}}$ is not Turing recognizable. 
-Also, the mapping reducibility $A \leq_m$
+Also, the mapping reducibility $A \leq_m B$ implies $\overline{A} \leq_m \overline{B}$.
+GIven two facts above, we can use  Corollary 5.29 above to show that B is not Turing-reco
 
 
 >**Theorem 5.30**
@@ -395,7 +396,7 @@ Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDQyODg5Myw1NzU2Nzk3NzcsLTM5Nj
+eyJoaXN0b3J5IjpbLTY0MDUzMDcwOCw1NzU2Nzk3NzcsLTM5Nj
 A3NDg1OCwtMTU1OTQ0MTYzNywtOTM5MzEwMjQ4LC0xNTU1MTM4
 Njg5LDk3NzA5OTM5NywtMTc2NjA1MzIxNSw2NjAxMzYxNTMsLT
 E1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMjEyOTk3NjczOCwyODAw
