@@ -381,6 +381,7 @@ Watch out the difference between 5.22 and 5.23.
 >**Corollary 5.29**
 > If $A ≤_m B$ and A is not Turing-recognizable, then B is not Turing-recognizable.
 
+
 >**Theorem 5.30**
 > $EQ_{TM}$ is neither Turing-recognizable nor co-Turing-recognizable.
 
@@ -390,11 +391,11 @@ Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1Njc5Nzc3LC0zOTYwNzQ4NTgsLTE1NT
-k0NDE2MzcsLTkzOTMxMDI0OCwtMTU1NTEzODY4OSw5NzcwOTkz
-OTcsLTE3NjYwNTMyMTUsNjYwMTM2MTUzLC0xNTU2NzA4NTQyLC
-0xNzY2Mzk0OTEyLDIxMjk5NzY3MzgsMjgwMDg0MTI4LC0xNzMy
-Mzc3NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUxODM4Mj
-EwLC01Njg3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5
-OTk2NzQ5OF19
+eyJoaXN0b3J5IjpbLTg4NTI4NjA5Myw1NzU2Nzk3NzcsLTM5Nj
+A3NDg1OCwtMTU1OTQ0MTYzNywtOTM5MzEwMjQ4LC0xNTU1MTM4
+Njg5LDk3NzA5OTM5NywtMTc2NjA1MzIxNSw2NjAxMzYxNTMsLT
+E1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMjEyOTk3NjczOCwyODAw
+ODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgzNjc2MD
+M5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMTQ3
+MTg4NjI4OV19
 -->
