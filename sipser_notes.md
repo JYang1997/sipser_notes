@@ -384,17 +384,17 @@ Watch out the difference between 5.22 and 5.23.
 >**Theorem 5.30**
 > $EQ_{TM}$ is neither Turing-recognizable nor co-Turing-recognizable.
 
-Proof Idea: The prrof use two reduction, one reduce $A_{TM}$ to $\bar{EQ_{TM}}$
+Proof Idea: The prrof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{TM}}$,
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzMzg3NTg5LC0zOTYwNzQ4NTgsLTE1NT
-k0NDE2MzcsLTkzOTMxMDI0OCwtMTU1NTEzODY4OSw5NzcwOTkz
-OTcsLTE3NjYwNTMyMTUsNjYwMTM2MTUzLC0xNTU2NzA4NTQyLC
-0xNzY2Mzk0OTEyLDIxMjk5NzY3MzgsMjgwMDg0MTI4LC0xNzMy
-Mzc3NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUxODM4Mj
-EwLC01Njg3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5
-OTk2NzQ5OF19
+eyJoaXN0b3J5IjpbLTU3MDczMTAzNiwtMzk2MDc0ODU4LC0xNT
+U5NDQxNjM3LC05MzkzMTAyNDgsLTE1NTUxMzg2ODksOTc3MDk5
+Mzk3LC0xNzY2MDUzMjE1LDY2MDEzNjE1MywtMTU1NjcwODU0Mi
+wtMTc2NjM5NDkxMiwyMTI5OTc2NzM4LDI4MDA4NDEyOCwtMTcz
+MjM3NzQ1OSwtNzcyNDQ2MDA5LC03ODM2NzYwMzksMTM1MTgzOD
+IxMCwtNTY4Nzk1MTksLTcxNzg3OTMzMSwxNDcxODg2Mjg5LDE1
+OTk5Njc0OThdfQ==
 -->
