@@ -336,7 +336,9 @@ The computation history method is an important technique for proving that $A_{TM
 
 > **Theorem 5.9**
 >  $A_{LBA} = \{<M,w> | M \text{ is an }  LBA \text{ that accepts string } w\}$
->  $A_{LBA}$ is undecidable
+>  $A_{LBA}$ is decidable.
+
+
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -346,11 +348,11 @@ The computation history method is an important technique for proving that $A_{TM
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMj
-EyOTk3NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0
-NjAwOSwtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC
-03MTc4NzkzMzEsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OTkw
-MjU4NiwxOTEzNjMyMDk1LDIxNDE1OTI2ODksMzk3MzcxMjgzLC
-05OTY0NTk1NDksLTgxMjM0MTQwNCwxMDQ1MjcxOTc0LC0xMDMy
-NTgzNjM0XX0=
+eyJoaXN0b3J5IjpbMzczMzEyMzIxLC0xNTU2NzA4NTQyLC0xNz
+Y2Mzk0OTEyLDIxMjk5NzY3MzgsMjgwMDg0MTI4LC0xNzMyMzc3
+NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUxODM4MjEwLC
+01Njg3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyODksMTU5OTk2
+NzQ5OCw1ODk5MDI1ODYsMTkxMzYzMjA5NSwyMTQxNTkyNjg5LD
+M5NzM3MTI4MywtOTk2NDU5NTQ5LC04MTIzNDE0MDQsMTA0NTI3
+MTk3NF19
 -->
