@@ -358,17 +358,19 @@ TODO read proof.
   We say problem A is reducible to problem B, that means there is a transformation function that convert instance of A to instance of B. Then if you can solve problem B, similarily you solved problem A. When question is concerning decidability of problem B, we can start by assuming there is decider for B, then try to come up with reduction that can reduce some undecidable problem A to B. In such way, we constructed a contradiction proof.
 
 >**Definition 5.17**
-	> A function $f : \Sigma^* \rightarrow \Sigma^*$ is a 
+	> A function $f : \Sigma^* \rightarrow \Sigma^*$ is a **computable function** is some turing machine $M$, on every input $w$, halts with just $f(w)$ on tape.
+
+
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDg5ODY2OCwtOTM5MzEwMjQ4LC0xNT
-U1MTM4Njg5LDk3NzA5OTM5NywtMTc2NjA1MzIxNSw2NjAxMzYx
-NTMsLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMjEyOTk3NjczOC
-wyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgz
-Njc2MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMz
-EsMTQ3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OTkwMjU4NiwxOTEz
-NjMyMDk1XX0=
+eyJoaXN0b3J5IjpbLTE1NTk0NDE2MzcsLTkzOTMxMDI0OCwtMT
+U1NTEzODY4OSw5NzcwOTkzOTcsLTE3NjYwNTMyMTUsNjYwMTM2
+MTUzLC0xNTU2NzA4NTQyLC0xNzY2Mzk0OTEyLDIxMjk5NzY3Mz
+gsMjgwMDg0MTI4LC0xNzMyMzc3NDU5LC03NzI0NDYwMDksLTc4
+MzY3NjAzOSwxMzUxODM4MjEwLC01Njg3OTUxOSwtNzE3ODc5Mz
+MxLDE0NzE4ODYyODksMTU5OTk2NzQ5OCw1ODk5MDI1ODYsMTkx
+MzYzMjA5NV19
 -->
