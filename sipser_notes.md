@@ -327,7 +327,8 @@ The computation history method is an important technique for proving that $A_{TM
 > Let M be a Turing machine and w an input string. An **accepting computation history** for M on w is a sequence of configurations, $C_1 , C_2 , . . . , C_l$ , where $C_1$ is the **start configuration** of M on w, $C_l$ is an accepting configuration of $M$ , and each $C_i$ legally follows from $C_{i−1}$ according to the rules of $M$. A **rejecting computation history** for $M$ on $w$ is defined similarly, except that$C_l$ is a **rejecting configuration**.
  
  > **Definition 5.6**
- >  A 
+ >  A **Linear Bounded Automation** or $M_{LBA}$ is a restricted type of Turing machine wherein the tape head isn’t permitted to move off the portion of the tape containing the input. If the machine tries to move its head off either end of the input, the head stays where it is—in the same way that the head will not move off the left-hand end of an ordinary Turing machine’s tape.
+ 
  ## Post Correspondence Problem (PCP)
  
  ## Mapping Reducibility
@@ -337,11 +338,11 @@ The computation history method is an important technique for proving that $A_{TM
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjExNDM1ODcsMjEyOTk3NjczOCwyOD
-AwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgzNjc2
-MDM5LDEzNTE4MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMT
-Q3MTg4NjI4OSwxNTk5OTY3NDk4LDU4OTkwMjU4NiwxOTEzNjMy
-MDk1LDIxNDE1OTI2ODksMzk3MzcxMjgzLC05OTY0NTk1NDksLT
-gxMjM0MTQwNCwxMDQ1MjcxOTc0LC0xMDMyNTgzNjM0LDMwNTI5
-MjA3NF19
+eyJoaXN0b3J5IjpbLTgzNzY4MDM0NiwyMTI5OTc2NzM4LDI4MD
+A4NDEyOCwtMTczMjM3NzQ1OSwtNzcyNDQ2MDA5LC03ODM2NzYw
+MzksMTM1MTgzODIxMCwtNTY4Nzk1MTksLTcxNzg3OTMzMSwxND
+cxODg2Mjg5LDE1OTk5Njc0OTgsNTg5OTAyNTg2LDE5MTM2MzIw
+OTUsMjE0MTU5MjY4OSwzOTczNzEyODMsLTk5NjQ1OTU0OSwtOD
+EyMzQxNDA0LDEwNDUyNzE5NzQsLTEwMzI1ODM2MzQsMzA1Mjky
+MDc0XX0=
 -->
