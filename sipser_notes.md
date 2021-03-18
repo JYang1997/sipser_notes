@@ -355,17 +355,17 @@ TODO read proof.
  ## Mapping Reducibility
   
   **Notes:**
-  
+  We say problem A is reducible to problem B, that means there is a transformation function that convert instance of A to instance of B. Then if you can solve problem B, similar
  # Chapter 6
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjEwOTQ2LC0xNTU1MTM4Njg5LDk3Nz
-A5OTM5NywtMTc2NjA1MzIxNSw2NjAxMzYxNTMsLTE1NTY3MDg1
-NDIsLTE3NjYzOTQ5MTIsMjEyOTk3NjczOCwyODAwODQxMjgsLT
-E3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNTE4
-MzgyMTAsLTU2ODc5NTE5LC03MTc4NzkzMzEsMTQ3MTg4NjI4OS
-wxNTk5OTY3NDk4LDU4OTkwMjU4NiwxOTEzNjMyMDk1LDIxNDE1
-OTI2ODldfQ==
+eyJoaXN0b3J5IjpbMTE5OTgwNzQ1OSwtMTU1NTEzODY4OSw5Nz
+cwOTkzOTcsLTE3NjYwNTMyMTUsNjYwMTM2MTUzLC0xNTU2NzA4
+NTQyLC0xNzY2Mzk0OTEyLDIxMjk5NzY3MzgsMjgwMDg0MTI4LC
+0xNzMyMzc3NDU5LC03NzI0NDYwMDksLTc4MzY3NjAzOSwxMzUx
+ODM4MjEwLC01Njg3OTUxOSwtNzE3ODc5MzMxLDE0NzE4ODYyOD
+ksMTU5OTk2NzQ5OCw1ODk5MDI1ODYsMTkxMzYzMjA5NSwyMTQx
+NTkyNjg5XX0=
 -->
