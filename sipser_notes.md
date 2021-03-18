@@ -397,16 +397,20 @@ Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{T
 
 ## The Recursion Theorem
 
-## De
+## Decidability of Logical Theories
+
+## Turing Reducibility
+
+
 > Written with [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk0NTA4NjEsOTY0NTcxMDE1LC02Mj
-I0ODcxMCw1NzU2Nzk3NzcsLTM5NjA3NDg1OCwtMTU1OTQ0MTYz
-NywtOTM5MzEwMjQ4LC0xNTU1MTM4Njg5LDk3NzA5OTM5NywtMT
-c2NjA1MzIxNSw2NjAxMzYxNTMsLTE1NTY3MDg1NDIsLTE3NjYz
-OTQ5MTIsMjEyOTk3NjczOCwyODAwODQxMjgsLTE3MzIzNzc0NT
-ksLTc3MjQ0NjAwOSwtNzgzNjc2MDM5LDEzNTE4MzgyMTAsLTU2
-ODc5NTE5XX0=
+eyJoaXN0b3J5IjpbMTI3OTcwNDQ0Miw5NjQ1NzEwMTUsLTYyMj
+Q4NzEwLDU3NTY3OTc3NywtMzk2MDc0ODU4LC0xNTU5NDQxNjM3
+LC05MzkzMTAyNDgsLTE1NTUxMzg2ODksOTc3MDk5Mzk3LC0xNz
+Y2MDUzMjE1LDY2MDEzNjE1MywtMTU1NjcwODU0MiwtMTc2NjM5
+NDkxMiwyMTI5OTc2NzM4LDI4MDA4NDEyOCwtMTczMjM3NzQ1OS
+wtNzcyNDQ2MDA5LC03ODM2NzYwMzksMTM1MTgzODIxMCwtNTY4
+Nzk1MTldfQ==
 -->
