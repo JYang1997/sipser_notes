@@ -132,7 +132,7 @@ The proof for above theorem is tedious, basically it's a proof by construction, 
 > **Pumping Lemma for Context-Free Languages**
 > If $A$ is context-free language, then there is a number $p$ (the pumping length) where, if $s$ is any in $A$ of length at least $p$, then $s$ may be divided into five pieces  $s = uvxyz$ satisfying the conditions,
 > >1. for each $i \geq 0$, $uv^ixy^iz \in A$
->> 2. $|y| > 0$
+>> 2. $|vy| > 0$
 >>3. $|vxy| \leq p$.
 
 The **pumping length** has upper bound $b^{|V|+1}$, where $|V|$ is the number of variables in the grammar, and b is the maximum number of symbols in the right hand side of a rule. 
@@ -406,7 +406,7 @@ Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMjQ4MzE1LC0xMzA4NTY1NjM2LDEyNz
+eyJoaXN0b3J5IjpbMTM2OTAyNjgzLC0xMzA4NTY1NjM2LDEyNz
 k3MDQ0NDIsOTY0NTcxMDE1LC02MjI0ODcxMCw1NzU2Nzk3Nzcs
 LTM5NjA3NDg1OCwtMTU1OTQ0MTYzNywtOTM5MzEwMjQ4LC0xNT
 U1MTM4Njg5LDk3NzA5OTM5NywtMTc2NjA1MzIxNSw2NjAxMzYx
