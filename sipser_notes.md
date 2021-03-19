@@ -124,7 +124,7 @@ To prove a language is regular, one can start from the definition, or its equiva
 > **Theorem 2.20**
 > A language is context free if and only if some pushdown automaton recognizes it.
 
-The proof for above theorem is redious, basically it's a proof by construction, where it shows that start from one of it you can construct the other one.
+The proof for above theorem is tedious, basically it's a proof by construction, where it shows that start from one of it you can construct the other one.
 
 
 ### Differentiating Non-Context-Free Languages
@@ -406,11 +406,11 @@ Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTcwNDQ0Miw5NjQ1NzEwMTUsLTYyMj
-Q4NzEwLDU3NTY3OTc3NywtMzk2MDc0ODU4LC0xNTU5NDQxNjM3
-LC05MzkzMTAyNDgsLTE1NTUxMzg2ODksOTc3MDk5Mzk3LC0xNz
-Y2MDUzMjE1LDY2MDEzNjE1MywtMTU1NjcwODU0MiwtMTc2NjM5
-NDkxMiwyMTI5OTc2NzM4LDI4MDA4NDEyOCwtMTczMjM3NzQ1OS
-wtNzcyNDQ2MDA5LC03ODM2NzYwMzksMTM1MTgzODIxMCwtNTY4
-Nzk1MTldfQ==
+eyJoaXN0b3J5IjpbLTEzMDg1NjU2MzYsMTI3OTcwNDQ0Miw5Nj
+Q1NzEwMTUsLTYyMjQ4NzEwLDU3NTY3OTc3NywtMzk2MDc0ODU4
+LC0xNTU5NDQxNjM3LC05MzkzMTAyNDgsLTE1NTUxMzg2ODksOT
+c3MDk5Mzk3LC0xNzY2MDUzMjE1LDY2MDEzNjE1MywtMTU1Njcw
+ODU0MiwtMTc2NjM5NDkxMiwyMTI5OTc2NzM4LDI4MDA4NDEyOC
+wtMTczMjM3NzQ1OSwtNzcyNDQ2MDA5LC03ODM2NzYwMzksMTM1
+MTgzODIxMF19
 -->
