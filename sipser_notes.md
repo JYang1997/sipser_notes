@@ -341,7 +341,7 @@ The computation history method is an important technique for proving that $A_{TM
 Note that this is different from turing machine, where acceptance problem is undecidable for regular turing machine. But thanks to lemma 5.8, we know there are only finite amount of distinct configurations, therefore, if machine still run after that much steps, then the machine must be in some loops therefore never accept.
 
 >**Theorem 5.10**
-> $E_{LBA} is undecidable.
+> $E_{LBA}$ is undecidable.
 
 Proof Idea: The proof using reduction from  $A_{TM}$ to $E_{LBA}$. The idea is that you can contruct a TM R which is decider for $E_{LBA}$ then construct a LBA machine B such that the machine takes input of computation histories, then accept only if the computation history is accept computation history. Then, if we run R on input $<B>$, if R accept(reject) B, then A must reject(accept).  
 
@@ -406,11 +406,11 @@ Proof Idea: The proof use two reduction, one reduce $A_{TM}$ to $\overline{EQ_{T
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTAyNjgzLC0xMzA4NTY1NjM2LDEyNz
-k3MDQ0NDIsOTY0NTcxMDE1LC02MjI0ODcxMCw1NzU2Nzk3Nzcs
-LTM5NjA3NDg1OCwtMTU1OTQ0MTYzNywtOTM5MzEwMjQ4LC0xNT
-U1MTM4Njg5LDk3NzA5OTM5NywtMTc2NjA1MzIxNSw2NjAxMzYx
-NTMsLTE1NTY3MDg1NDIsLTE3NjYzOTQ5MTIsMjEyOTk3NjczOC
-wyODAwODQxMjgsLTE3MzIzNzc0NTksLTc3MjQ0NjAwOSwtNzgz
-Njc2MDM5XX0=
+eyJoaXN0b3J5IjpbMTI1NjM0OTM1MSwxMzY5MDI2ODMsLTEzMD
+g1NjU2MzYsMTI3OTcwNDQ0Miw5NjQ1NzEwMTUsLTYyMjQ4NzEw
+LDU3NTY3OTc3NywtMzk2MDc0ODU4LC0xNTU5NDQxNjM3LC05Mz
+kzMTAyNDgsLTE1NTUxMzg2ODksOTc3MDk5Mzk3LC0xNzY2MDUz
+MjE1LDY2MDEzNjE1MywtMTU1NjcwODU0MiwtMTc2NjM5NDkxMi
+wyMTI5OTc2NzM4LDI4MDA4NDEyOCwtMTczMjM3NzQ1OSwtNzcy
+NDQ2MDA5XX0=
 -->
